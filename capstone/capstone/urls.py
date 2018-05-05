@@ -21,5 +21,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     path('courses/', include('courses.urls')),
     path('best_path/', include('best_path.urls')),
-    path('opath/', include("opath.urls"))
+    path('opath/', include("opath.urls")),
+	  path('LandingPage/', include('LandingPage.urls')),
 ]

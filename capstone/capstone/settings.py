@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'course_search.apps.CourseSearchConfig',
     'courses.apps.CoursesConfig',
     'best_path.apps.BestPathConfig',
-    'opath.apps.OpathConfig'
+    'opath.apps.OpathConfig',
+	  'LandingPage'
 ]
 
 MIDDLEWARE = [
