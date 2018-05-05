@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'course_search.apps.CourseSearchConfig',
     'courses.apps.CoursesConfig',
-	'LandingPage'
+    'best_path.apps.BestPathConfig',
+    'opath.apps.OpathConfig',
+	  'LandingPage'
 ]
 
 MIDDLEWARE = [
