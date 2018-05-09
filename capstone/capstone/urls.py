@@ -22,5 +22,6 @@ urlpatterns = [
     path('courses/', include('courses.urls')),
     path('best_path/', include('best_path.urls')),
     path('opath/', include("opath.urls")),
-	  path('LandingPage/', include('LandingPage.urls')),
+	path('LandingPage/', include('LandingPage.urls')),
+    url(r'^accounts/', include('accounts.urls')),
 ]
