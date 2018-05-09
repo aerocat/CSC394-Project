@@ -1,4 +1,6 @@
 {% extends 'base_layout.html' %}
+
+{% block content %}
 {% if faculty_list %}
 <ul>
     {% for faculty in faculty_list %}
@@ -12,3 +14,4 @@
     No Faculty Available
 </p>
 {% endif %}
+{% endblock %}
