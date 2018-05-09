@@ -1,0 +1,24 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Capstone - Final Project </title>
+  </head>
+  <body>
+    <h2> Capstone - Course Search </h2>
+      <form class="logout-button" action="{% url 'accounts:logout' %}" method="post">
+        {% csrf_token %}
+        <button type="button"> Logout </button>
+      </form>
+      <!-- navbar will go here -->
+      {% block navbar %}
+      {% endblock %}
+
+      <!-- main content for each page will go here -->
+      {% block content %}
+      {% endblock %}
+
+  </body>
+</html>
