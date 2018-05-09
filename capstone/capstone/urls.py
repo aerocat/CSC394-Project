@@ -23,4 +23,5 @@ urlpatterns = [
     path('best_path/', include('best_path.urls')),
     path('opath/', include("opath.urls")),
 	  path('LandingPage/', include('LandingPage.urls')),
+    path('course_search/', include('course_search.urls', namespace = 'course_search'))
 ]
