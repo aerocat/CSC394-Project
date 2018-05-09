@@ -10,7 +10,7 @@
     <h2> Capstone - Course Search </h2>
       <form class="logout-button" action="{% url 'accounts:logout' %}" method="post">
         {% csrf_token %}
-        <button type="button"> Logout </button>
+        <button type="submit"> Logout </button>
       </form>
       <!-- navbar will go here -->
       {% block navbar %}
