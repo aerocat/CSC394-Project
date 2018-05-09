@@ -1,34 +1,44 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" href="{% static 'best_path/style.css' %}" />
 <html>
     <head>
         <title>
             Best option page
         </title>
     </head>
+    
     <!-- basic top buttons as of right now only 1 is functioning-->
-    <body>
-        <div class="topnav" align = "right">
+        <div class = "logout" align = "right">
             <button type= "button"> Name </button>
             <button type = "lougout">Log out </button>
         </div>
-        <div align = "center">
+
+
+        <h1>
+            Optimal Page
+        </h1>
+
+
+        <div class = "links" align = "center">
             <button type= "button"> Course Browser </button>
-            <button type = "button">Optimal Path Generator </button>
+            <a href='/opath'>Optimal Path Generator </a>
             <button type = "button"> Saved Paths</button>
         </div>
-        <div align='center'>
+
+        <h3>
             Saved Paths
+        </h3>
+        
+        <div class= "bar" align="center">
+            <select>
+                <option value= "Class 1">Class 1</option>
+                <option value= "Class 2">Class 2</option>
+                <option value= "Class 3">Class 3</option>
+            </select>
         </div>
         
         <div align="center">
-            <select>
-            <option value= "Class 1">Class 1</option>
-            <option value= "Class 2">Class 2</option>
-            <option value= "Class 3">Class 3</option>
-            </select>
-            
-        </div>
-        <div align="center">
                 <button type="button">Search</button>
         </div>
-    </body>
 </html>
