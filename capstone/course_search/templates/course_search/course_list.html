@@ -1,0 +1,10 @@
+<h1>Courses</h1>
+<ul>
+	{% for course in course_list %}
+    <li>
+		<a href="{% url 'course_search:single_course' course.class_code %}">{{ course.class_code }} - {{ course.class_title }}</a>
+	</li>
+	{% empty %}
+    <li>No courses yet.</li>
+	{% endfor %}
+</ul>
