@@ -1,4 +1,23 @@
-<h1>Landing Page</h1>
+{% load staticfiles %}
 
-<a href="{% url 'LandingPage:all_faculty' %}">Faculty List</a>
-<a href="{% url 'LandingPage:all_students' %}">Student List</a>
+<link rel="stylesheet" href="{% static 'opath/style.css' %}" />
+<html>
+	<div class = "logout" align = "right">
+        <button type= "button"> Name </button>
+        <button type = "lougout">Log out </button>
+    </div>
+	
+	<h1>Landing Page</h1>
+	
+	<div class = "links" align = "center">
+        <a href='/LandingPage/courses'><button type= "button"> Course Browser </button> </a>
+		<a href='/opath'><button type= "button"> Optimal Path Generator </button> </a>
+		<a href='/best_path'><button type= "button"> Saved Paths </button> </a>
+    </div>
+	
+	
+
+	<a href="{% url 'LandingPage:all_faculty' %}">Faculty List</a>
+	<a href="{% url 'LandingPage:all_students' %}">Student List</a>
+	<a href='/LandingPage/courses'>Course List</a>
+</html>

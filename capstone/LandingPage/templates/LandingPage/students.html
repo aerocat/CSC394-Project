@@ -1,12 +1,37 @@
-{% if student_list %}
-<ul>
-    {% for student in student_list %}
-    <li><a href="{% url 'LandingPage:single_student' student.id %}">{{ student.student_name_last }}</a>
-    </li>
-    {% endfor %}
-</ul>
-{% else %}
-<p>
-    No Students Available
-</p>
-{% endif %}
+{% load staticfiles %}
+
+<link rel="stylesheet" href="{% static 'opath/style.css' %}" />
+
+<html>
+	<head>
+        <title>
+            Student List
+        </title>
+    </head>
+    
+    <!-- basic top buttons as of right now only 1 is functioning-->
+    <div class = "logout" align = "right">
+        <button type= "button"> Name </button>
+        <button type = "lougout">Log out </button>
+    </div>
+	
+	<h1>Students</h1>
+	
+	{% if student_list %}
+	<div class = "links" align = "center">
+		<a href='/LandingPage/courses'><button type= "button"> Course Browser </button> </a>
+		<a href='/opath'><button type= "button"> Optimal Path Generator </button> </a>
+		<a href='/best_path'><button type= "button"> Saved Paths </button> </a>
+	</div>
+	<ul>
+		{% for student in student_list %}
+		<li><a href="{% url 'LandingPage:single_student' student.id %}">{{ student.student_name_last }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+	{% else %}
+	<p>
+		No Students Available
+	</p>
+	{% endif %}
+</html>
