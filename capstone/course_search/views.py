@@ -2,5 +2,8 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render
+from django.views.generic.list import ListView
+from django.http import HttpResponse
 
-# Create your views here.
+def courseSearch(request):
+	return render(request, 'course_search/course_search.html')
