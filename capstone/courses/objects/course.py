@@ -28,7 +28,7 @@ class Course():
 
     def toJson(self):
         courseDictionary =  {"courseID": self.getCourseID(), "courseNumber": self.getCourseNumber(), "onlineStatus":
-                self.getOnlineStatus(), "classSection": self.getClassSection(), "courseTitle": self.getCourseTitle,
+                self.getOnlineStatus(), "classSection": self.getClassSection(), "courseTitle": self.getCourseTitle(),
                 "subject": self.getSubject(), "subjectDescription": self.getSubjectDescription(),
                 "classType": self.getClassType(), "classTypeDescription": self.getClassTypeDescription(),
                 "consentChar": self.getConsentChar(), "consentCharDescription": self.getConsentCharDescription(),

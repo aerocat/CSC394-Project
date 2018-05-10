@@ -2,7 +2,6 @@ from django.shortcuts import render
 
 # Create your views here.
 import json
-
 from courses.models import Coursetable
 from courses.objects.course import Course
 from courses.objects.courseCatalog import CourseCatalog
@@ -10,9 +9,11 @@ from django.http import HttpResponse
 
 def index(request):
     #need to change path
-    fileParser('/Users/ethancohen/Desktop/untitled/Q_COURSES2.txt')
+    fileParser('/Users/ethancohen/Documents/CSC394-Project/capstone/Q_COURSES2.txt')
     makeCourses(courseListCatalog)
-    return HttpResponse(getCourse("CSC", 421).getTitle())
+    jCourse = Coursetable.objects.get(pk=5)
+    course = json.loads(jCourse)
+    return HttpResponse({'course': course}, content_type='application/json')
 
 courseListCatalog = []
 courses = []
@@ -34,8 +35,9 @@ def makeCourses(courseList):
                               a.enrollmentCap, a.waitListCap, a.enrollStatus, a.classLocation,
                               a.classLocationDescription, a.startTime, a.endTime, a.prereq, a.classNumber,
                               a.classStatus))
-    for course in courses:
-        jCourse = course.toJson
+    for course in courses[:10]:
+        jCourse = course.toJson()
+        print(json.loads(jCourse))
         c = Coursetable(coursec=jCourse, coursesubject=course.getSubject(), coursenumber=course.getCourseNumber())
         c.save()
 
