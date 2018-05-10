@@ -1,38 +1,17 @@
-{% load staticfiles %}
+{% extends 'base_layout.html' %}
 
-<link rel="stylesheet" href="{% static 'opath/style.css' %}" />
-
-<html>
-	<head>
-        <title>
-            Faculty List
-        </title>
-    </head>
-    
-    <!-- basic top buttons as of right now only 1 is functioning-->
-    <div class = "logout" align = "right">
-        <button type= "button"> Name </button>
-        <button type = "lougout">Log out </button>
-    </div>
-	
-	<h1>Faculty</h1>
-	
-	{% if faculty_list %}
-	<div class = "links" align = "center">
-		<a href='/LandingPage/courses'><button type= "button"> Course Browser </button> </a>
-		<a href='/opath'><button type= "button"> Optimal Path Generator </button> </a>
-		<a href='/best_path'><button type= "button"> Saved Paths </button> </a>
-	</div>
-	<ul>
-		{% for faculty in faculty_list %}
-		<li>
-			<a href="{% url 'LandingPage:single_faculty' faculty.faculty_id %}">{{ faculty.faculty_name_last }}</a>
-		</li>
-		{% endfor %}
-	</ul>
-	{% else %}
-	<p>
-		No Faculty Available
-	</p>
-	{% endif %}
-</html>
+{% block content %}
+{% if faculty_list %}
+<ul>
+    {% for faculty in faculty_list %}
+    <li>
+        <a href="{% url 'LandingPage:single_faculty' faculty.faculty_id %}">{{ faculty.faculty_name_last }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>
+    No Faculty Available
+</p>
+{% endif %}
+{% endblock %}
