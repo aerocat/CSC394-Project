@@ -25,5 +25,5 @@ urlpatterns = [
     url(r'^accounts/', include('accounts.urls')),
 	path('LandingPage/', include('LandingPage.urls')),
     path('course_search/', include('course_search.urls', namespace = 'course_search')),
-    path('user_profile/', include('user_profile.urls')),
+    path('profile', include('user_profile.urls')),
 ]
