@@ -1,7 +1,8 @@
 from django.shortcuts import render
-from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
 
 # Allows users to retrieve their full profile
+@login_required(login_url="/accounts/login/")
 def get_profile(request):
     #  TO DO: update information function (uses POST)
     # if request.method == 'POST':
@@ -13,6 +14,5 @@ def get_profile(request):
     # else:
         # form = UserCreationForm()
     # user = User.objects.get(username=username)
-    print("got here")
     # return render(request, 'user_profile/profile.html', {'user': user})
     return render(request, 'user_profile/profile.html')
