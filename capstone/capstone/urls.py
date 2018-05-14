@@ -23,6 +23,9 @@ urlpatterns = [
     path('best_path/', include('best_path.urls')),
     path('opath/', include("opath.urls")),
     url(r'^accounts/', include('accounts.urls')),
-	path('', include('LandingPage.urls')),
-    path('course_search/', include('course_search.urls', namespace = 'course_search'))
+  	path('LandingPage/', include('LandingPage.urls')),
+    path('course_search/', include('course_search.urls', namespace = 'course_search')),
+    path('profile', include('user_profile.urls')),
+  	path('', include('LandingPage.urls')),
+    path('course_search/', include('course_search.urls', namespace = 'course_search'),
 ]

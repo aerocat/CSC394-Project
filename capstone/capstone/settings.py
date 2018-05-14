@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'best_path.apps.BestPathConfig',
     'opath.apps.OpathConfig',
 	'LandingPage',
-    'accounts'
+    'accounts',
+    'user_profile'
 ]
 
 MIDDLEWARE = [
