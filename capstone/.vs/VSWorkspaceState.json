@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\accounts",
+    "\\LandingPage",
+    "\\LandingPage\\templates",
+    "\\LandingPage\\templates\\LandingPage"
+  ],
+  "SelectedNode": "\\LandingPage\\urls.py",
+  "PreviewInSolutionExplorer": false
+}
