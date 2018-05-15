@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\capstone",
-    "\\courses\\objects\\__pycache__"
+    "\\courses"
   ],
-  "SelectedNode": "\\capstone\\settings.py",
+  "SelectedNode": "\\courses\\urls.py",
   "PreviewInSolutionExplorer": false
 }
