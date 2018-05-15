@@ -7,12 +7,12 @@ from courses.models import Coursetable
 from courses.objects.course import Course
 from courses.objects.courseCatalog import CourseCatalog
 from django.http import HttpResponse
+from django.conf import settings
 
 def index(request):
-    #need to change path
-    fileParser('/Users/ethancohen/Desktop/untitled/Q_COURSES2.txt')
-    makeCourses(courseListCatalog)
-    return HttpResponse(getCourse("CSC", 421).getTitle())
+	fileParser(settings.PATH_COURSE2)
+	makeCourses(courseListCatalog)
+	return HttpResponse(getCourse("CSC", 421).getTitle())
 
 courseListCatalog = []
 courses = []
