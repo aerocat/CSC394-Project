@@ -3,7 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.views import generic
 # Create your views here.
 
-from .models import Faculty, Student
+from accounts.models import Faculty, Student
 from course_search.models import Course
 
 def index(request):
