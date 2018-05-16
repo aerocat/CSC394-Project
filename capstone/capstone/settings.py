@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'course_search.apps.CourseSearchConfig',
+    'coursesDB.apps.CoursesdbConfig',
     'courses.apps.CoursesConfig',
     'opath.apps.OpathConfig',
 	'LandingPage',
