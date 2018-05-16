@@ -1,0 +1,25 @@
+{% extends 'base_layout.html' %}
+{% block content %}
+    <h3> Your Profile </h3>
+    <!-- <form class="form" action="{% url 'accounts:login' %}" method="post">
+      {% csrf_token %}
+      {{form}}
+      <input type="submit" name="" value="login">
+    </form> -->
+
+    <h3> EDIT PROFILE </h3>
+
+    {{ user.username }}
+    {{ user.email }}
+    {{ user.first_name }}
+    {{ user.last_name }}
+    <hr>
+
+
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" name="button"> Update Profile </button>
+      </form>
+
+{% endblock %}
