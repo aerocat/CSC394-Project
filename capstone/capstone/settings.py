@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'course_search.apps.CourseSearchConfig',
     'courses.apps.CoursesConfig',
-    'best_path.apps.BestPathConfig',
     'opath.apps.OpathConfig',
 	'LandingPage',
     'accounts',
