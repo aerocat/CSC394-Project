@@ -20,7 +20,7 @@ def get_profile(request):
 
 @login_required(login_url="/accounts/login/")
 def edit_profile(request):
-    if request.method = 'POST':
+    if request.method == 'POST':
         form = UserChangeForm(request.POST, instance=request.user)
 
         if form.is_valid():
