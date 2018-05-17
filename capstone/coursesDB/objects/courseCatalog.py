@@ -70,7 +70,7 @@ class CourseCatalog():
     # document
     def prereqFinder(self):
         # THIS PATH WILL CHANGE WITH EACH USER
-        infile = open('C:\\Users\\ethan\\Desktop\\Capstone\\Q_COURSES-1.txt', 'r', encoding='utf-8')
+        infile = open('../../Q_COURSES-1.txt', 'r', encoding='utf-8')
         fileList = infile.readlines()
         fileList.pop(0)
         for a in fileList:

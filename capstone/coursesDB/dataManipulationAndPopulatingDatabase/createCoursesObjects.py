@@ -8,7 +8,7 @@ pretty_courses = []
 
 
 def file_parser():
-    infile = open('C:\\Users\\ethan\\Desktop\\Capstone\\Q_COURSES2.txt', 'r', encoding='utf-8')
+    infile = open('../../Q_COURSES2.txt', 'r', encoding='utf-8')
     file_list = infile.readlines()
     infile.close()
     file_list.pop(0)
@@ -28,10 +28,10 @@ def make_courses():
 
 def construct_pretty_courses():
 
-    infile = open('C:\\Users\\ethan\\Desktop\\Capstone\\CoursesFileText.txt', 'r', encoding='utf-8')
+    infile = open('../../CoursesFileText.txt', 'r', encoding='utf-8')
     file_list = infile.readlines()
 
-    infile = open('C:\\Users\\ethan\\Desktop\\Capstone\\Q_COURSES2.txt', 'r', encoding='utf-8')
+    infile = open('../../Q_COURSES2.txt', 'r', encoding='utf-8')
     file_list2 = infile.readlines()
 
     infile.close()
