@@ -30,22 +30,24 @@
             </div>
             <div class= "col-sm-5 border border-primary rounded">
                 <br>
+                <h4 class = "text-center font-weight-bold"> Class Select</h4>
+                <br>
                     <select class = "form-control">
                         {% for item in data %}
-                                <option value= "CSC 241">{{ item.course_number }}</option>
+                                <option value= {{ item.course_number }}>{{ item.course_number }}</option>
                         {% endfor %}
                     
                     </select>
                     <br>
                     <select class = "form-control">
                         {% for item in data %}
-                                <option value= "CSC 241">{{ item.course_number }}</option>
+                                <option value= {{ item.course_number }}>{{ item.course_number }}</option>
                         {% endfor %}
                     </select>
                     <br>
                         <select class = "form-control">
                             {% for item in data %}
-                                <option value= "CSC 241">{{ item.course_number }}</option>
+                                <option value= {{ item.course_number }}>{{ item.course_number }}</option>
                             {% endfor %}
                         </select>     
                         <br>
