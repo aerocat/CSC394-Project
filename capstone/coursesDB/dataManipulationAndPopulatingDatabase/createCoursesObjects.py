@@ -9,7 +9,11 @@ pretty_courses = []
 
 
 def file_parser():
+<<<<<<< HEAD
+    infile = open('../../Q_COURSES2.txt', 'r', encoding='utf-8')
+=======
     infile = open(settings.PATH_COURSE2, 'r', encoding='utf-8')
+>>>>>>> master
     file_list = infile.readlines()
     infile.close()
     file_list.pop(0)
@@ -29,10 +33,17 @@ def make_courses():
 
 def construct_pretty_courses():
 
+<<<<<<< HEAD
+    infile = open('../../CoursesFileText.txt', 'r', encoding='utf-8')
+    file_list = infile.readlines()
+
+    infile = open('../../Q_COURSES2.txt', 'r', encoding='utf-8')
+=======
     infile = open(settings.PATH_COURSE3, 'r', encoding='utf-8')
     file_list = infile.readlines()
 
     infile = open(settings.PATH_COURSE2, 'r', encoding='utf-8')
+>>>>>>> master
     file_list2 = infile.readlines()
 
     infile.close()
