@@ -1,3 +1,6 @@
+from django.conf import settings
+
+
 class CourseCatalog():
     # Initializes course variables based on column in excel sheet
     def __init__(self, courseList):
@@ -70,7 +73,11 @@ class CourseCatalog():
     # document
     def prereqFinder(self):
         # THIS PATH WILL CHANGE WITH EACH USER
+<<<<<<< HEAD
         infile = open('../../Q_COURSES-1.txt', 'r', encoding='utf-8')
+=======
+        infile = open(settings.PATH_COURSE1, 'r', encoding='utf-8')
+>>>>>>> master
         fileList = infile.readlines()
         fileList.pop(0)
         for a in fileList:
