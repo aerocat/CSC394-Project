@@ -27,5 +27,5 @@ urlpatterns = [
     path('course_search/', include('course_search.urls', namespace = 'course_search')),
     path('profile', include('user_profile.urls')),
   	path('', include('LandingPage.urls')),
-    path('course_search/', include('course_search.urls', namespace = 'course_search'),
+    path('course_search/', include('course_search.urls', namespace = 'course_search'))
 ]
