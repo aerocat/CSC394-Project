@@ -31,22 +31,22 @@
             <div class= "col-sm-5 border border-primary rounded">
                 <br>
                     <select class = "form-control">
-                        <option value= "CSC 241">CSC 241</option>
-                        <option value= "CSC 394">CSC 394</option>
-                        <option value= "CSC 301">CSC 301</option>
+                        {% for item in data %}
+                                <option value= "CSC 241">{{ item.course_number }}</option>
+                        {% endfor %}
                     
                     </select>
                     <br>
                     <select class = "form-control">
-                        <option value= "CSC 241">CSC 241</option>
-                        <option value= "CSC 394">CSC 394</option>
-                        <option value= "CSC 301">CSC 301</option>
+                        {% for item in data %}
+                                <option value= "CSC 241">{{ item.course_number }}</option>
+                        {% endfor %}
                     </select>
                     <br>
                         <select class = "form-control">
-                            <option value= "CSC 241">CSC 241</option>
-                            <option value= "CSC 394">CSC 394</option>
-                            <option value= "CSC 301">CSC 301</option>
+                            {% for item in data %}
+                                <option value= "CSC 241">{{ item.course_number }}</option>
+                            {% endfor %}
                         </select>     
                         <br>
                     <div align="center">
@@ -57,6 +57,5 @@
             </div>
             
         </div>
-        
     </body>
 </html>
