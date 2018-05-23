@@ -4,7 +4,7 @@
 {% if student_list %}
 <ul>
     {% for student in student_list %}
-    <li><a href="{% url 'LandingPage:single_student' student.id %}">{{ student.student_name_last }}</a>
+    <li><a href="{% url 'LandingPage:single_student' student.student_id %}">{{ student.student_name_last }}</a>
     </li>
     {% endfor %}
 </ul>

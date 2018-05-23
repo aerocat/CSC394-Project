@@ -1,5 +1,6 @@
 from django.conf import settings
 
+
 class CourseCatalog():
     # Initializes course variables based on column in excel sheet
     def __init__(self, courseList):
@@ -66,6 +67,8 @@ class CourseCatalog():
         # String for class status, can be A, T, or X
         self.classStatus = courseList[19]
 
+        self.courseDescription = self.prereqFinder()
+
     # Helper method to pair courses from one excel sheet  to the other since the prerequistes are cut off in one
     # document
     def prereqFinder(self):
@@ -103,8 +106,6 @@ class CourseCatalog():
     def getTime(self, timeString):
         if (len(timeString) == 1):
             return "00:00"
-        else:
-            if (len(timeString) == 3):
-                return "0" + timeString[0] + ":" + timeString[1:]
-            else:
-                return timeString[0:2] + ":" + timeString[2:]
+        elif (len(timeString) == 3):
+            return "0" + timeString[0] + ":" + timeString[1:]
+        return timeString[0:2] + ":" + timeString[2:]

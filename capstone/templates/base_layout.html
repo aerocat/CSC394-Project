@@ -8,10 +8,17 @@
   </head>
   <body>
     <h2> Capstone - Course Search </h2>
-      <form class="logout-button" action="{% url 'accounts:logout' %}" method="post">
-        {% csrf_token %}
-        <button type="submit"> Logout </button>
-      </form>
+      {% if user.is_authenticated %}
+      <li>
+        <form class="logout-button" action="{% url 'accounts:logout' %}" method="post">
+          {% csrf_token %}
+          <button type="submit"> Logout </button>
+        </form>
+      </li>
+      {% else %}
+      <li> <a href="{% url 'accounts:login'%}"> Login </a></li>
+      <li> <a href="{% url 'accounts:signup'%}"> Signup </a></li>
+      {% endif %}
       <!-- navbar will go here -->
       {% block navbar %}
       {% endblock %}

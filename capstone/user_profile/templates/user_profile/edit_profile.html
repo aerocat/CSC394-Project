@@ -7,14 +7,19 @@
       <input type="submit" name="" value="login">
     </form> -->
 
-    <p> all the user's info will be displayed here, and allow to change/add details </p>
-    <p> require authentication </p>
+    <h3> EDIT PROFILE </h3>
 
     {{ user.username }}
     {{ user.email }}
     {{ user.first_name }}
     {{ user.last_name }}
+    <hr>
 
-    <a href="{% url 'user_profile:edit_profile' %}">Edit Profile</a>
+
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" name="button"> Update Profile </button>
+      </form>
 
 {% endblock %}

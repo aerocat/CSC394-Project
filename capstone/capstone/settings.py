@@ -14,7 +14,9 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+PATH_COURSE1 = os.path.join(BASE_DIR, 'Q_COURSES-1.txt')
+PATH_COURSE2 = os.path.join(BASE_DIR, 'Q_COURSES2.txt')
+PATH_COURSE3 = os.path.join(BASE_DIR, 'CoursesFileText.txt')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -38,8 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'course_search.apps.CourseSearchConfig',
+    'coursesDB.apps.CoursesdbConfig',
     'courses.apps.CoursesConfig',
-    'best_path.apps.BestPathConfig',
     'opath.apps.OpathConfig',
 	'LandingPage',
     'accounts',
