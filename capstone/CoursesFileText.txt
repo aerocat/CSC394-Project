@@ -1,0 +1,197 @@
+﻿||CourseNumber|CourseName|Major|Concentration|QuarterOffered|TimeOffered|Online|Prereqs
+||CSC400|Discrete Structures for Computer Science|||Fall, Winter, Spring||Yes|None
+||CSC401|Introduction to Programming|||Fall, Winter, Summer||Yes|None
+||CSC402|Data Structures I|||Fall, Winter, Spring, Summer||Yes|CSC401
+||CSC403|Data Structures II|||Fall, Winter, Spring, Summer||Yes|CSC402
+||CSC406|Systems I|||Fall, Winter, Spring, Summer||Yes|CSC401
+||CSC407|Systems II|||Fall, Winter, Spring, Summer||Yes|CSC406 and CSC402
+||CNS440|Information Security Management|||Fall, Spring, Winter||Yes|None
+||CNS450|Digital Forensic Techniques|||Fall||Yes|CSC407 or CNS418
+||CNS455|Physical and IT Security Convergence |||Winter||Yes|None
+||CNS466|Critical Infrastructure and Control Systems Cybersecurity|||Spring||Yes|CNS440 or TDC477
+||CNS477|Governance Policies in Information Assurance|||Fall, Winter||Yes|CNS440
+||CNS488|Security Testing and Assessment |||Winter, Spring, Fall||Yes|CSC407 or TDC477
+||CNS489|Advanced Cyber Attack Responses and Defenses|||Fall||No|CSC407 or CNS418
+||CNS533|Enterprise Security Infrastructure Controls and Regulatory Compliance|||Fall||Yes|CNS440
+||CNS594|Computer Information and Network Security Capstone|||Spring, Winter||Yes|TDC477 or CNS533
+||CNS597|Topics in Computer Information and Network Security|||Fall, Spring||Yes|
+||CNS599|Independent Study|||Winter, Spring, Fall||No|
+||ECT424|Enterprise Infrastructure|||Fall, Winter, Spring, Summer||Yes|None
+||ECT436|Social Marketing and Social Networking Applications|||Fall, Winter, Spring, Summer||Yes|None
+||ECT455|E-Commerce Web Site Engineering|||Spring||Yes|CSC401 or IT411 or HCI430
+||ECT587|Mobile Commerce Technology|||Fall||Yes|CSC401 or IT411 or ECT436 or ECT455
+||ECT589|E-Business Strategies|||Fall||Yes|10 or more Computing MS Level Courses
+||GAM424|Game Design Workshop|||Fall||No|None
+||GAM425|Applied 3D Geometry|||Fall||Yes|None
+||GAM426|Game Sound Design 2|||Spring||No|None
+||GAM427|Scoring for Games|||Winter||No|GAM426
+||GAM428|Game Sound Design and Scoring Studio|||Spring||No|None
+||GAM430|Art Games Bootcamp|||Winter||No|None
+||GAM440|Games with A Purpose Bootcamp|||Spring||No|None
+||GAM450|Physics for Game Developers|||Spring||Yes|CSC461 and (SE456 or SE450)
+||GAM451|Expressive Audio Scripting for Games|||Fall||No|None
+||GAM470|Rendering and Graphics Programming|||Winter||Yes|GAM425 and CSC461
+||GAM475|Game Engine Programming I|||Fall||Yes|CSC461 and (SE456 or SE450)
+||GAM476|Artificial Intelligence for Computer Games|||Fall||Yes|CSC461 and (SE456 or SE450)
+||GAM520|Game Design Proseminar|||Winter||No|GAM420
+||GAM575|Game Engine Programming II|||Winter||Yes|GAM475
+||GAM576|Game Engine Programming III|||Spring||Yes|GAM575
+||GAM597|Topics in Game Design|||Fall, Spring, Winter||No|None
+||GAM599|Independent Study|||Fall, Spring, Winter||No|None
+||GAM690|Game Development Studio I|||Fall, Winter||No|GAM475
+||GAM691|Game Development Studio II|||Spring, Winter||No|GAM474 or SE456
+||GAM695|Master's Game Research Study|||Fall, Winter, Spring||Yes|GAM575 and Advisor Consent
+||HCI421|Designing for Content Management Systems |||Winter||Yes|HCI406
+||HCI422|Multimedia|||Summer||Yes|HCI440
+||HCI430|Prototyping and Implementation|||Fall, Winter, Spring||Yes|Concurrently Enrolled in HCI440 or HCI441
+||HCI440|Introduction to User-Centered Design|||Fall, Winter, Spring||Yes|None
+||HCI445|Inquiry Methods and Use Analysis|||Fall, Winter, Spring||Yes|IT403 and (HCI440 or HCI441)
+||HCI450|Foundations of Human-Computer Interaction|||Fall, Winter, Spring||Yes|IT403
+||HCI454|Interaction Design and Information Architecture|||Fall, Winter, Spring, Summer||Yes|HCI406 and (HCI440 or 441)
+||HCI460|Usability Evaluation Methods|||Fall, Winter, Spring, Summer||Yes|IT403 and (HCI440 or HCI441)
+||HCI470|Digital Design |||Fall, Winter, Spring||Yes|HCI402 and HCI406
+||HCI511|Accessibility and Design for Diverse Users|||Fall||Yes|HCi445
+||HCI512|Information Visualization and Infographics|||Winter||Yes|IT403 and HCI470
+||HCI514|Global User Research|||Winter||Yes|HCI445 and HCI460
+||HCI515|Design Ethnography |||Spring||No|HCI445 and HCI454 and HCI430
+||HCI520|Learner-Centered Design|||Spring||Yes|IT403 and (HCI440 or HCI441) and HCI450
+||HCI522|UX Strategy and Web Analytics|||Spring||Yes|HCI460
+||HCI530|Mobile Design|||Winter||Yes|HCI454
+||HCI553|Social Interaction Design|||Fall||No|HCI454
+||HCI580|User Experience Design Practicum |||Spring, Winter||No|HCi445 and HCi454
+||HCI594|Human-Computer Interaction Capstone|||Fall, Winter, Spring, Summer||Yes|HCI Core Courses and Instructor Consent
+||HCI59|Independent Study|||Fall, Winter, Spring, Summer||No|Instructor Consent
+||HIT421|Health Informatics|||Fall||Yes|Health Informatics Designation
+||HIT422|System Design for Health are|||Winter||Yes|None
+||HIT430|Electronic Health Records|||Winter||Yes|None
+||HIT440|Health Information Exchange and Networking|||Spring||Yes|None
+||IS421|Systems Analysis|||Fall, Winter, Spring, Summer||Yes|None
+||IS422|System Design, Implementation, and Maintenance|||Fall, Winter, Spring||Yes|IS421 and CSC451
+||IS430|Fundamentals of IT Project Management|||Fall, Winter, Spring, Summer||Yes|None
+||IS431|Digital Product Management|||Winter||Yes|None
+||IS435|Organizational Modeling|||Fall, Spring||Yes|IS421 or SE430
+||IS440|Collaborative Technologies for Leading Projects|||Fall||Yes|None
+||IS444|IT Auditing|||Fall, Spring||Yes|None
+||IS452|Big Data and the Internet of Things (Iot)|||Fall, Spring||Yes|None
+||IS455|Electronic Business|||Spring||Yes|Business Information Concentration
+||IS482|Legal Responsibilities in Information Technology|||Winter||Yes|None
+||IS483|Information Services and Operations|||Winter||Yes|5 MS Level IS Courses
+||IS485|Requirements Elicitation, Analysis, and Specification|||Winter||Yes|IS422 or IS430 or PM430. Cannot take SE482 and IS485.
+||IS500|Information Technology Leadership|||Spring||Yes|IS430 or PM430 or SE477
+||IS505|Business Continuity/Disaster Recovery Theories and Strategies|||Fall, Winter, Spring, Summer||Yes|None
+||IS506|Business Continuity/Disaster Recovery Management and Tactics|||Summer||Yes|IS505
+||IS511|Social Issues of Computing|||Fall, Summer||Yes|None
+||IS535|Information Technology, Investment Financial Analysis|||Fall, Winter, Spring||Yes|SE477 or IS565 or ACT500 or IS430 or PM430 or ECT455
+||IS536|Enterprise Cloud Computing|||Winter||Yes|None
+||IS540|Global Information Technology|||Winter||Yes|5 or more MS Level IS Courses
+||IS549|Data Warehousing|||Fall, Winter||Yes|CSC451 or CSC453 or CSC455
+||IS550|Enterprise Data Management|||Fall||Yes|CSC451 or CSC453 or CSC455
+||IS556|Enterprise Project Management|||Fall, Winter, Spring, Summer||Yes|IS430 or PM430
+||IS560|Enterprise Systems|||Fall, Spring||Yes|Advanced Standing
+||IS565|IT Outsourcing|||Winter||Yes|5 or more MS Level IS Courses
+||IS570|Enterprise System Implementation|||Fall, Spring||Yes|IS430 or PM430
+||IS574|Business Intelligence|||Fall, Spring||Yes|(SE430 or IS435 or PM430 or MIS674) and CS451
+||IS577|Information Systems Policies and Strategies|||Fall, Winter, Summer||Yes|10 or more MS Level IS Courses
+||IS578|Information Technology Consulting|||Spring||Yes|Foundation Courses Completion
+||IS580|Technology Entrepreneurship|||Winter, Spring||No|Foundation Courses Completion
+||IS599|Independent Study|||Fall, Winter, Spring, Summer||No|None
+||IT590|Topics in Information Technology|||Spring||Yes|Instructor Consent
+||IT599|Topics in Global Information Technology|||Fall||No|None
+||PM430|Fundamentals of IT Project Management|||Fall, Winter, Spring, Summer||Yes|None
+||PM440|Collaborative Technologies for Leading Projects|||Fall||Yes|None
+||PM535|Information Technology Investment Financial Analysis|||Fall, Spring||Yes|SE477 or IS565 or ACCT500 or IS430 or PM430 or ECT455
+||PM556|Enterprise Project Management|||Spring, Winter, Spring, Summer||Yes|IS430 or PM430
+||PM570|Enterprise System Implementation|||Fall, Winter, Spring, Summer||Yes|IS430 or PM430 or 5 or more MS Level IS Courses
+||PM577|IT Portfolio Management and Strategies|||Spring||Yes|IS556 or PM556
+||SE430|Object Oriented Modeling|||Fall, Winter, Summer||Yes|CSC430
+||SE433|Software Testing Quality Assurance|||Winter, Spring||Yes|CSC403
+||SE441|Continuous Delivery and Devops|||Winter||Yes|CSC403
+||SE450|Object-Oriented Software Development|||Fall, Winter, Spring, Summer||Yes|CSC403
+||SE452|Object-Oriented Enterprise Computing|||Fall, Spring||Yes|CSC403
+||SE456|Architecture of Real-Time Systems|||Winter||Yes|CSC403
+||SE457|Service-Oriented Architecture|||Spring||Yes|SE450 or CSC435
+||SE459|Agile Software Development|||Fall||Yes|SE450 or CSC435
+||SE475|Managing Globally Distributed Software Development|||Fall||Yes|CSC403
+||SE477|Software and Systems Project Management|||Spring||Yes|None
+||SE480|Software Architecture I|||Fall||Yes|SE450
+||SE482|Requirements Engineering||||||
+||SE491|Software Engineering Studio|||Fall, Winter||Yes|SE450 or SE456
+||SE526|Software Security Assessment|||Winter||Yes|CSC435
+||SE554|Enterprise Component Architecture|||Spring||Yes|SE450 or SE52
+||SE591|Software Engineering Studio II|||Winter, Spring||Yes|SE491
+||SE695|Master's Research|||Spring||No|Completed Foundation Courses
+||SE699|Software Engineering Research Continuation|||Winter, Summer||No|SE698
+||TDC431|Emerging Wireless and Mobility Networks|||Winter, Summer||Yes|TDC405
+||TDC460|Foundations of Network Technologies|||Fall, Spring, Summer||Yes|TDC405 and TDC413
+||TDC463|Computer Networks and Data Systems|||Fall, Winter, Spring, Summer||Yes|TDC405 and TDC413
+||TDC464|Converged Multimedia Networks|||Fall, Winter||Yes|TDC413
+||TDC477|Network Security|||Fall, Winter, Spring||Yes|TDC463 or CSC435
+||TDC478|Information Storage and Management|||Fall||Yes|None
+||TDC484|Scripting for Network Management|||Winter||Yes|TDC413
+||TDC511|Telecommunications Practicum|||Fall, Spring||Yes|TDC411 and TDC460 and TDC 463
+||TDC512|Cellular and Wireless Telecommunications|||Fall||Yes|TDC464
+||TDC560|Advanced Network Technologies and Design|||Winter||Yes|TDC460 and TDC463
+||TDC562|Computer-Communication Network Design and Analysis|||Winter||Yes|TDC463
+||TDC563|Protocols and Techniques for Data Networks|||Fall, Spring||Yes|TDC463
+||TDC568|Network Management|||Spring||Yes|TDC463
+||TDC577|Network Security II|||Fall, Spring||Yes|TDC477
+||TDC593|Topics in Network Engineering and Security|||Winter||No|None
+||TDC594|Network Capstone|||Spring||Yes|TDC477 and TDC511
+||TDC599|Independent Study|||Fall, Winter, Spring, Summer||No|None
+||TDC696|Master's Project|||Fall, Winter, Spring, Summer||No|Advisor Consent
+||TDC698|Master's Thesis|||Fall, Winter, Spring, Summer||No|Advisor Consent
+||CSC421|Applied Algorithms and Structures|||Fall, Winter, Spring||Yes|CSC400 and CSC403
+||CSC431|Scientific Computing|||Winter||Yes|CSC401 and two quarters of Calculus
+||CSC435|Distributed Systems I|||Fall, Winter, Spring||Yes|CSC403 and CSC407
+||CSC436|Web Applications|||Fall||Yes|CSC435 and CSC447
+||CSC438|Framework for Web Application Development|||Fall||Yes|CSC407
+||CSC439|Computer Security|||Winter||Yes|CSC407
+||CSC440|Cryptology|||Winter||Yes|CSC403
+||CSC443|Introduction to Operating Systems|||Fall||Yes|CSC403 and CSC407
+||CSC447|Concepts of Programming Languages|||Fall, Winter, Spring||Yes|CSC403 and CSC406
+||CSC448|Compiler Design|||Fall||Yes|CSC447
+||CSC451|Database Design for Information Systems|||||Yes|None
+||CSC452|Database Programming|||Fall, Winter, Spring, Summer||Yes|(CSC453 or CSC451 or CSC455) and (CSC401 or IT411)
+||CSC453|Database Technologies|||Fall, Winter, Spring||Yes|CSC403
+||CSC454|Database Administration and Management|||Winter, Summer||Yes|CSC451 or CSC453 or CSC455
+||CSC458|Symbolic Programming|||Winter||Yes|CSC403
+||CSC461|Optimized C++|||Fall, Spring||Yes|CSC400 and CSC403 and CSC406
+||CSC462|Optimized C++ Multithreading|||Fall, Spring||Yes|GAM491 or CSC461
+||CSC471|Mobile Application Development for iOS|||Winter||Yes|CSC403 and CSC407
+||CSC472|Mobile Application Development for Android|||Fall||Yes|CSC403 and CSC407
+||CSC475|Introduction to Robotics|||Fall, Winter||No|CSC407
+||CSC480|Artificial Intelligence I|||Spring, Winter||Yes|CSC403
+||CSC481|Introduction to Image Processing|||Fall||Yes|CSC412
+||CSC482|Applied Image Analysis|||Winter||Yes|CSC481
+||CSC486|Real-Time Networking|||Spring||Yes|CSC461 and (SE456 or SE450)
+||CSC489|Theory of Computation|||Fall||Yes|CSC444 or CSC421
+||CSC491|Mobile Application Development for iOS II|||Spring||Yes|CSC471
+||CSC500|Research Colloquium|||Fall, Winter, Spring||Yes|None
+||CSC521|Monte Carlo Algorithms |||Spring||Yes|(CSC402 or CSC404) and CSC423
+||CSC525|Combinatorial Optimization|||Winter||Yes|CSC421
+||CSC536|Distributed Systems II|||Spring||Yes|CSC435
+||CSC543|Spatial Databases and Geographic Information Systems|||Spring||Yes|CSC453 or CSC455
+||CSC552|Concurrent Software Development|||Fall||Yes|SE450 and CSC407
+||CSC553|Advanced Database Concepts|||Winter||Yes|CSC453
+||CSC554|Advanced Database Management|||Spring||Yes|CSC453 or CSC454
+||CSC555|Mining Big Data|||Fall, Spring, Winter||Yes|(CSC401 and (CSC453 or DSC450) and (DSC441 or DSC478)) or (MAT491 and MAT449)
+||CSC559|Software Engineering for Financial Markets|||Fall||Yes|CSC404 and (CSC431 or CSC5321 or CSC425)
+||CSC575|Intelligent Information Retrieval |||Winter||Yes|SC403
+||CSC576|Computational Advertising|||Winter||Yes|IS467 or CSC478 or ECT584
+||CSC577|Recommender Systems|||Winter, Spring||Yes|(CSC412 and CSC478) or (CSC403 an IS467)
+||CSC578|Neural Networks and Deep Learning|||Fall||Yes|(CS412 and DSC478) or (CSC403 and DSC441)
+||CSC587|Cognitive Science|||Winter||Yes|CSC403 or HCI460
+||CSC588|Real-Time Multithreaded Architecture|||Spring||Yes|CSC461 and (SE456 or SE450)
+||CSC594|Topics in Artificial Intelligence|||Spring||Yes|None
+||CSC595|Topics in Computer Science|||Fall||Yes|None
+||CSC599|Independent Study|||Spring||No|None
+||CSC695|Master's Research|||Fall, Winter, Spring, Summer||No|Foundation Courses Completion and Advisor Consent
+||CSC696|Master's Research|||Fall, Winter, Spring, Summer||No|CSC695
+||CSC697|Graduate Internship|||Fall, Winter, Spring, Summer||No|Instructor Consent
+||CSC698|Master's Thesis|||Fall, Winter, Spring|||Committee Consent
+||CSC699|Research|||Fall, Winter, Spring||No|Instructor Consent
+||IT411|Scripting for Interactive Systems|||Fall, Winter, Spring||Yes|None
+||IT403|Statistics and Data Analysis|||Fall, Winter, Spring, Winter||Yes|None
+||CSC401|Introduction to Programming|||Fall, Winter, Spring, Summer||Yes|None
+||IPD451|Big Data and NoSQL Program|||Fall, Winter, Spring||Yes|Instructor Consent
+||MGT500|Managing for Effective and Ethical Organizational Behavior|||Fall, Winter, Spring, Summer||Yes|None
