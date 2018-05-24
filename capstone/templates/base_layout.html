@@ -12,7 +12,7 @@
       integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
       crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <body>
     <!-- <h2> Capstone - Course Search </h2> -->
 
@@ -25,6 +25,7 @@
               <li class="pure-menu-item pure-menu-selected"><a href="/" class="pure-menu-link">Home</a></li>
               <li class="pure-menu-item pure-menu-selected"><a href="{% url 'LandingPage:all_students' %}" class="pure-menu-link">Student List</a></li>
               <li class="pure-menu-item pure-menu-selected"><a href="{% url 'LandingPage:all_faculty' %}" class="pure-menu-link">Faculty List </a></li>
+              <li class="pure-menu-item pure-menu-selected"><a href="/courses/all" class="pure-menu-link">Course List </a></li>
               <li class="pure-menu-item pure-menu-selected"><a href='/opath' class="pure-menu-link"> Optimal Class Path </a></li>
               <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
                   <a href="{% url 'user_profile:profile' %}" id="menuLink1" class="pure-menu-link">Your Profile</a>
@@ -40,24 +41,20 @@
                   </ul>
               </li>
           </ul>
-      </div>
+      </divget_courses
 
       <hr>
       {% endblock %}
 
-      {% if not user.is_authenticated %}
-        <h3> Welcome to Home </h3>
-        <p> If you have an account, please Login </a>, otherwise <a href="{% url 'accounts:signup'%}"> Sign Up </a>. </p>
         {% block login %}
-          block login
+          <!-- block login -->
         {% endblock %}
-      {% endif %}
 
       <!-- main content for each page will go here -->
 
       <br>
       <div>
-      <p> block "content" begins after the line </p>
+      <!-- <p> block "content" begins after the line </p> -->
       <hr>
 
       {% block content %}

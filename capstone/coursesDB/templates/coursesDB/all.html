@@ -1,7 +1,12 @@
-{% for course_dictionary in lst_of_courses %}
-<h3>Individual course page</h3>
+{% extends 'base_layout.html' %}
 
-<p> Course Number: {{course_dictionary.course_number}}  </p>
+{% block content %}
+
+{% for course_dictionary in lst_of_courses %}
+<h2> Available courses </h2>
+
+<h3>{{course_dictionary.course_number}} </h3>
+
 <p> Course Description: {{course_dictionary.course_description}}  </p>
 <p> Course Offered :{{course_dictionary.quarters_offered}}  </p>
 
@@ -11,3 +16,4 @@
 Full object returned:
 {{course_dictionary}}
 {% endfor %}
+{% endblock %}

@@ -1,12 +1,18 @@
 {% extends 'base_layout.html' %}
 
 {% block content %}
-<h1>Landing Page</h1>
 
-<a href="{% url 'LandingPage:all_faculty' %}">Faculty List</a>
-<a href="{% url 'LandingPage:all_students' %}">Student List</a>
-<a href="{% url 'user_profile:profile' %}">Profile</a>
+{% if not user.is_authenticated %}
+  <h3> Welcome to Home </h3>
+  <p> If you have an account, <a href="{% url 'accounts:login'%}"> Login </a>, otherwise <a href="{% url 'accounts:signup'%}"> Sign Up </a>. </p>
+{% endif %}
 
-<h1> Optimal Path</h1>
-<a href='/opath'> Optimal Path</a>
+
+
+<!-- <a href="{% url 'LandingPage:all_faculty' %}">Faculty List</a> -->
+<!-- <a href="{% url 'LandingPage:all_students' %}">Student List</a> -->
+<!-- <a href="{% url 'user_profile:profile' %}">Profile</a> -->
+
+<!-- <h1> Optimal Path</h1> -->
+<!-- <a href='/opath'> Optimal Path</a> -->
 {% endblock %}

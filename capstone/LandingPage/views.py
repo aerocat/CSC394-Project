@@ -33,7 +33,7 @@ class CourseListView(generic.ListView):
 	model = Course
 	context_object_name = 'course_list'
 	template_name = 'LandingPage/course_list.html'
-	
+
 def CourseSingleView(request, class_code_in):
 	course = Course.objects.get(class_code=class_code_in)
 
