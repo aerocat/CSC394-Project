@@ -18,28 +18,14 @@ from django.dispatch import receiver
 #
 # post_save.connect(create_profile, sender=User)
 
-class Faculty(models.Model):
-	faculty_id = models.IntegerField()
-	faculty_name_first = models.CharField(max_length=50)
-	faculty_name_last = models.CharField(max_length=50)
-	faculty_email = models.CharField(max_length=50)
-	def __str__(self):
-		return self.faculty_name_last
-
-class Student(models.Model):
-	student_id = models.IntegerField()
-	student_name_first = models.CharField(max_length=50)
-	student_name_last = models.CharField(max_length=50)
-	student_email = models.CharField(max_length=50)
-	def __str__(self):
-		return self.student_name_last
-
 class myUserManager(BaseUserManager):
 	def create_user(self, email, first_name, last_name, password=None, is_staff=False, is_admin=False):
 		if not email:
 			raise ValueError("You need to enter a valid email to sign up")
 		user_object = self.model(
-			email = self.normalize_email(email)
+			email = self.normalize_email(email),
+			first_name = first_name,
+			last_name = last_name
 		)
 		user_object.set_password(password)
 		user_object.faculty = is_staff

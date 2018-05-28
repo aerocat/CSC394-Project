@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'coursesDB.apps.CoursesdbConfig',
     'courses.apps.CoursesConfig',
     'opath.apps.OpathConfig',
-	'LandingPage',
     'accounts',
     'user_profile'
 ]

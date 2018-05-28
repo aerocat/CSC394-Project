@@ -1,0 +1,1570 @@
+[
+{
+    "model": "coursesDB.courses",
+    "pk": 1,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC400\", \"course_name\": \"Discrete Structures for Computer Science\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"This course covers the basic mathematical tools essential for solving problems in computer science.  The mathematical topics are presented with emphasis on their applications in computer science.  The topics covered include: logic and set theory, relation\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC400"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 2,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC401\", \"course_name\": \"Introduction to Programming\", \"quarters_offered\": \"Fall, Winter, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"An introduction to programming with a focus on problem solving, structured programming, and algorithm design with a gentle introduction to efficiency. Concepts covered include data types, expressions, variables, assignments, conditional and iterative stru\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC401"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 3,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC402\", \"course_name\": \"Data Structures I\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"CSC401\\n\", \"course_description\": \"A first course on data structures in Java for graduate students.  The course introduces Java programming from within the context of data structures. The course covers arrays, linked lists, stacks and queues, data structures supporting disjoint-set operati\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC402"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 4,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC403\", \"course_name\": \"Data Structures II\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"CSC402\\n\", \"course_description\": \"This is the second course on data structures in Java for graduate students. The course covers trees, heaps, associative arrays, hash tables, tries, and data structures for representing graphs. The implementation of the basic operations on each data struct\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC403"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 5,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC406\", \"course_name\": \"Systems I\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"CSC401\\n\", \"course_description\": \"An introductory graduate course on computer systems topics, focusing on machine-level programming and architecture and their relevance for application programming. Information representations, assembly language and debuggers, processor architecture, progr\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC406"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 6,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC407\", \"course_name\": \"Systems II\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"CSC406andCSC402\\n\", \"course_description\": \"An introductory graduate course on computer systems topics, focusing on operating systems components and their relevance for application programming. Linking, processes, virtual memory, dynamic memory allocation, system level I/O, networking and network p\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC407"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 7,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS440\", \"course_name\": \"Information Security Management\", \"quarters_offered\": \"Fall, Spring, Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CNS440"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 8,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS450\", \"course_name\": \"Digital Forensic Techniques\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC407orCNS418\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CNS450"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 9,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS455\", \"course_name\": \"Physical and IT Security Convergence \", \"quarters_offered\": \"Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CNS455"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 10,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS466\", \"course_name\": \"Critical Infrastructure and Control Systems Cybersecurity\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CNS440orTDC477\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CNS466"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 11,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS477\", \"course_name\": \"Governance Policies in Information Assurance\", \"quarters_offered\": \"Fall, Winter\", \"prereqs\": \"CNS440\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CNS477"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 12,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS488\", \"course_name\": \"Security Testing and Assessment \", \"quarters_offered\": \"Winter, Spring, Fall\", \"prereqs\": \"CSC407orTDC477\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CNS488"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 13,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS489\", \"course_name\": \"Advanced Cyber Attack Responses and Defenses\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC407orCNS418\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "CNS489"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 14,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS533\", \"course_name\": \"Enterprise Security Infrastructure Controls and Regulatory Compliance\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CNS440\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CNS533"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 15,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS594\", \"course_name\": \"Computer Information and Network Security Capstone\", \"quarters_offered\": \"Spring, Winter\", \"prereqs\": \"TDC477orCNS533\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CNS594"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 16,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS597\", \"course_name\": \"Topics in Computer Information and Network Security\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CNS597"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 17,
+    "fields": {
+        "course_json": "{\"course_number\": \"CNS599\", \"course_name\": \"Independent Study\", \"quarters_offered\": \"Winter, Spring, Fall\", \"prereqs\": \"\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "CNS599"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 18,
+    "fields": {
+        "course_json": "{\"course_number\": \"ECT424\", \"course_name\": \"Enterprise Infrastructure\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"Introduction to modern infrastructure and the evolving technology environment.  Major topics include: computer networks, Internet infrastructure, Web 2.0, Enterprise 2.0, social media and networking, software as a service, content management systems, cloud computing,  and portal.\", \"offered_online\": \"Y\"}",
+        "course_number": "ECT424"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 19,
+    "fields": {
+        "course_json": "{\"course_number\": \"ECT436\", \"course_name\": \"Social Marketing and Social Networking Applications\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "ECT436"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 20,
+    "fields": {
+        "course_json": "{\"course_number\": \"ECT455\", \"course_name\": \"E-Commerce Web Site Engineering\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CSC401orIT411orHCI430\\n\", \"course_description\": \"(Formerly ECT 555, cross-listed with HCI 513) An introduction to Web site engineering methods and processes to support e-commerce development.  Web site engineering life cycle and user-centered design, including site goals,  business models, value propositions, user analysis, information architecture, interface and navigation design, usability guidelines, database, testing, hosting strategies, usage metrics, and collaborative development.  Technologies for e-commerce, shopping cart, digital payments, promotion strategies, and security issues.  Students will build fully functional Web sites using database and client- and server-side technologies.  PREREQUISITE(S): CSC 401 or IT 411 or HCI 430\", \"offered_online\": \"Y\"}",
+        "course_number": "ECT455"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 21,
+    "fields": {
+        "course_json": "{\"course_number\": \"ECT587\", \"course_name\": \"Mobile Commerce Technology\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC401orIT411orECT436orECT455\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "ECT587"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 22,
+    "fields": {
+        "course_json": "{\"course_number\": \"ECT589\", \"course_name\": \"E-Business Strategies\", \"quarters_offered\": \"Fall\", \"prereqs\": \"10ormoreComputingMSLevelCourses\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "ECT589"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 23,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM424\", \"course_name\": \"Game Design Workshop\", \"quarters_offered\": \"Fall\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM424"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 24,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM425\", \"course_name\": \"Applied 3D Geometry\", \"quarters_offered\": \"Fall\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "GAM425"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 25,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM426\", \"course_name\": \"Game Sound Design 2\", \"quarters_offered\": \"Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM426"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 26,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM427\", \"course_name\": \"Scoring for Games\", \"quarters_offered\": \"Winter\", \"prereqs\": \"GAM426\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM427"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 27,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM428\", \"course_name\": \"Game Sound Design and Scoring Studio\", \"quarters_offered\": \"Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM428"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 28,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM430\", \"course_name\": \"Art Games Bootcamp\", \"quarters_offered\": \"Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM430"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 29,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM440\", \"course_name\": \"Games with A Purpose Bootcamp\", \"quarters_offered\": \"Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM440"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 30,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM450\", \"course_name\": \"Physics for Game Developers\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CSC461and(SE456orSE450)\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "GAM450"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 31,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM451\", \"course_name\": \"Expressive Audio Scripting for Games\", \"quarters_offered\": \"Fall\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM451"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 32,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM470\", \"course_name\": \"Rendering and Graphics Programming\", \"quarters_offered\": \"Winter\", \"prereqs\": \"GAM425andCSC461\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "GAM470"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 33,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM475\", \"course_name\": \"Game Engine Programming I\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC461and(SE456orSE450)\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "GAM475"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 34,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM476\", \"course_name\": \"Artificial Intelligence for Computer Games\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC461and(SE456orSE450)\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "GAM476"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 35,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM520\", \"course_name\": \"Game Design Proseminar\", \"quarters_offered\": \"Winter\", \"prereqs\": \"GAM420\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM520"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 36,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM575\", \"course_name\": \"Game Engine Programming II\", \"quarters_offered\": \"Winter\", \"prereqs\": \"GAM475\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "GAM575"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 37,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM576\", \"course_name\": \"Game Engine Programming III\", \"quarters_offered\": \"Spring\", \"prereqs\": \"GAM575\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "GAM576"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 38,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM597\", \"course_name\": \"Topics in Game Design\", \"quarters_offered\": \"Fall, Spring, Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM597"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 39,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM599\", \"course_name\": \"Independent Study\", \"quarters_offered\": \"Fall, Spring, Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM599"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 40,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM690\", \"course_name\": \"Game Development Studio I\", \"quarters_offered\": \"Fall, Winter\", \"prereqs\": \"GAM475\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM690"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 41,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM691\", \"course_name\": \"Game Development Studio II\", \"quarters_offered\": \"Spring, Winter\", \"prereqs\": \"GAM474orSE456\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "GAM691"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 42,
+    "fields": {
+        "course_json": "{\"course_number\": \"GAM695\", \"course_name\": \"Master's Game Research Study\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"GAM575andAdvisorConsent\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "GAM695"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 43,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI421\", \"course_name\": \"Designing for Content Management Systems \", \"quarters_offered\": \"Winter\", \"prereqs\": \"HCI406\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HCI421"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 44,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI422\", \"course_name\": \"Multimedia\", \"quarters_offered\": \"Summer\", \"prereqs\": \"HCI440\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HCI422"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 45,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI430\", \"course_name\": \"Prototyping and Implementation\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"ConcurrentlyEnrolledinHCI440orHCI441\\n\", \"course_description\": \"Overview of prototyping methods ranging from low-fidelity to interactive script-based prototypes.  Analysis of prototyping tools and their relative advantages.  Projects include prototype  development over multiple iterations using a variety of strategies.  PREREQUISITE(S): IT 411.  Students must have completed or be concurrently enrolled in HCI 440 or HCI 441 to register for this course.\", \"offered_online\": \"Y\"}",
+        "course_number": "HCI430"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 46,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI440\", \"course_name\": \"Introduction to User-Centered Design\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"The user-interface development process. Introduction to methods for practicing user-centered design including user and task analysis, user interface design principles and testing using low-fidelity prototypes. Students may not receive credit for this course and HCI 441.  PREREQUISITE(S): None\", \"offered_online\": \"Y\"}",
+        "course_number": "HCI440"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 47,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI445\", \"course_name\": \"Inquiry Methods and Use Analysis\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"IT403and(HCI440orHCI441)\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HCI445"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 48,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI450\", \"course_name\": \"Foundations of Human-Computer Interaction\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"IT403\\n\", \"course_description\": \"Application of engineering and psychological theory to the design of computer systems. Overview of applicable research methods and research on perception, cognition, errors, and screen design. Attention will be given to creating and applying guidelines derived from research. PREREQUISITE(S): IT 403\", \"offered_online\": \"Y\"}",
+        "course_number": "HCI450"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 49,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI454\", \"course_name\": \"Interaction Design and Information Architecture\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"HCI406and(HCI440or441)\\n\", \"course_description\": \"Information architecture and interactive page design. Perception and use of menus, labels and user controls. Structuring information for navigation and presentation. Selecting and placing user controls for optimizing task flow on pages and across pages. Creating wire frames and using content managers. PREREQUISITE(S): HCI 406 and (HCI 440 or HCI 441)\", \"offered_online\": \"Y\"}",
+        "course_number": "HCI454"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 50,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI460\", \"course_name\": \"Usability Evaluation Methods\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"IT403and(HCI440orHCI441)\\n\", \"course_description\": \"Survey of evaluation methods that can be applied to user interfaces. Methods include expert inspections, walkthroughs, usability testing and analytical approaches. Students evaluate existing systems by applying some of these methods. PREREQUISITE(S): IT 403 and (HCI 440 or HCI 441)\", \"offered_online\": \"Y\"}",
+        "course_number": "HCI460"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 51,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI470\", \"course_name\": \"Digital Design \", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"HCI402andHCI406\\n\", \"course_description\": \"Focus on the visual aspects of interfaces for information and communication technologies (ICTs). Evaluate, critique and create ICT interfaces using design principles. Learn to choose color, type, layout and imagery to create aesthetic and usable ICT interfaces. Introduction to information visualization. Applying course concepts, students create and develop their own web-based portfolio.  PREREQUISITE(S): HCI 402 and HCI 406\", \"offered_online\": \"Y\"}",
+        "course_number": "HCI470"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 52,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI511\", \"course_name\": \"Accessibility and Design for Diverse Users\", \"quarters_offered\": \"Fall\", \"prereqs\": \"HCi445\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HCI511"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 53,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI512\", \"course_name\": \"Information Visualization and Infographics\", \"quarters_offered\": \"Winter\", \"prereqs\": \"IT403andHCI470\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HCI512"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 54,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI514\", \"course_name\": \"Global User Research\", \"quarters_offered\": \"Winter\", \"prereqs\": \"HCI445andHCI460\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HCI514"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 55,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI515\", \"course_name\": \"Design Ethnography \", \"quarters_offered\": \"Spring\", \"prereqs\": \"HCI445andHCI454andHCI430\\n\", \"course_description\": \"\\\"This discussion course focuses on topics related to ethnographic methods such as activity theory, value sensitive design, online ethnography and reflexivity.  Students will conduct participatory observations, interviews, and diary studies (all methods designed to engage with users \\\"\\\"in the wild\\\"\\\") and translate the results from those studies into design implications.  In this service learning course, students will work with community partners to conduct ethnographic studies and design a tool for the organization based on the results from the formative study. PREREQUISITE(S): HCI 445 and HCI 454 and HCI 430\\\"\", \"offered_online\": \"N\"}",
+        "course_number": "HCI515"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 56,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI520\", \"course_name\": \"Learner-Centered Design\", \"quarters_offered\": \"Spring\", \"prereqs\": \"IT403and(HCI440orHCI441)andHCI450\\n\", \"course_description\": \"Design and evaluation of technology-based learning systems. Theories and models of human perception and cognition as they apply to learning, instruction and training. Application of established principles for analyzing and designing learning systems. Projects include evaluating existing learning systems and the creation of a learning system.  PREREQUISITE(S): IT 403 and (HCI 440 or HCI 441) and HCI 450\", \"offered_online\": \"Y\"}",
+        "course_number": "HCI520"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 57,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI522\", \"course_name\": \"UX Strategy and Web Analytics\", \"quarters_offered\": \"Spring\", \"prereqs\": \"HCI460\\n\", \"course_description\": \"In this course, students examine how to align user experience (UX) approaches with business strategy.  Topics include: (a) examining how business and UX strategies are aligned; (b) translation of business goals into measurable metrics; and (c) assessing metrics using services such as Google Analytics. Prerequisite(s): HCI 460\", \"offered_online\": \"Y\"}",
+        "course_number": "HCI522"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 58,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI530\", \"course_name\": \"Mobile Design\", \"quarters_offered\": \"Winter\", \"prereqs\": \"HCI454\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HCI530"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 59,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI553\", \"course_name\": \"Social Interaction Design\", \"quarters_offered\": \"Fall\", \"prereqs\": \"HCI454\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "HCI553"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 60,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI580\", \"course_name\": \"User Experience Design Practicum \", \"quarters_offered\": \"Spring, Winter\", \"prereqs\": \"HCi445andHCi454\\n\", \"course_description\": \"Working with clients, students choose and practice appropriate methods learned in the HCI foundational courses to address business goals and user needs.  Course coverage includes best practices for consulting, effective communication with clients and coworkers, understanding business and organizational needs, and setting realistic goals and expectations. Prerequisites: HCI 445 and HCI 454\", \"offered_online\": \"N\"}",
+        "course_number": "HCI580"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 61,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI594\", \"course_name\": \"Human-Computer Interaction Capstone\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"HCICoreCoursesandInstructorConsent\\n\", \"course_description\": \"HCI 594 provides an opportunity for students to apply all of the skills they have learned on one comprehensive project. Multidisciplinary teams design, evaluate, and implement a user interface intensive project. Students prepare written documents describing their activities and present the final results to the class.  PREREQUISITE(S): Completion of the HCI core courses or consent of the instructor.\", \"offered_online\": \"Y\"}",
+        "course_number": "HCI594"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 62,
+    "fields": {
+        "course_json": "{\"course_number\": \"HCI59\", \"course_name\": \"Independent Study\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"InstructorConsent\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "HCI59"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 63,
+    "fields": {
+        "course_json": "{\"course_number\": \"HIT421\", \"course_name\": \"Health Informatics\", \"quarters_offered\": \"Fall\", \"prereqs\": \"HealthInformaticsDesignation\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HIT421"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 64,
+    "fields": {
+        "course_json": "{\"course_number\": \"HIT422\", \"course_name\": \"System Design for Health are\", \"quarters_offered\": \"Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HIT422"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 65,
+    "fields": {
+        "course_json": "{\"course_number\": \"HIT430\", \"course_name\": \"Electronic Health Records\", \"quarters_offered\": \"Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HIT430"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 66,
+    "fields": {
+        "course_json": "{\"course_number\": \"HIT440\", \"course_name\": \"Health Information Exchange and Networking\", \"quarters_offered\": \"Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "HIT440"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 67,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS421\", \"course_name\": \"Systems Analysis\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"Course focus is on both traditional and object oriented systems analysis, with an emphasis upon developing competency in a wide range of modeling techniques.  Specific topics include: overview of the software development environment and project management; project selection, initiation, and planning; determining requirements; process modeling, including DFDs and use cases; logic modeling, including decision tables, sequence diagrams, and activity diagrams; introduction to Entity-Relationship Diagrams.  PREREQUISITE(S): None\", \"offered_online\": \"Y\"}",
+        "course_number": "IS421"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 68,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS422\", \"course_name\": \"System Design, Implementation, and Maintenance\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"IS421andCSC451\\n\", \"course_description\": \"Course focus is on both traditional and object oriented systems design.  Specific topics include: database design, including logical and physical design; Entity-Relationship diagrams, class diagrams,  form and report design; interface and dialogue design; design specifications, including structure charts and prototypes; designing for LANs and distributed systems, as well as the Internet; system implementation, including parallel and phased implementation, testing, documentation, and user training; system maintenance, including types of maintenance, controlling and coordinating maintenance requests, and configuration management.  Course ends with a multi-week case study applying the principles from both this course and IS 421, Systems Analysis.  PREREQUISITE(S): IS 421 and CSC 451\", \"offered_online\": \"Y\"}",
+        "course_number": "IS422"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 69,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS430\", \"course_name\": \"Fundamentals of IT Project Management\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"This course concentrates on monitoring, managing and controlling assets and resources on a single IT project.  Topics covered are risk management; procurement and contract management; time and cost estimating; controlling and tracking techniques; quality assurance; testing and audit.  Students will use common project management software for resource allocation and balancing. PREREQUISITE(S): None\", \"offered_online\": \"Y\"}",
+        "course_number": "IS430"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 70,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS431\", \"course_name\": \"Digital Product Management\", \"quarters_offered\": \"Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS431"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 71,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS435\", \"course_name\": \"Organizational Modeling\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"IS421orSE430\\n\", \"course_description\": \"The course explores contemporary approaches to analyzing and modeling organizational problems, processes, workflow, users and data.  The emphasis is on the initial stages of analysis where the root cause of problems are identified, formulated and modeled.  Students will acquire an array of modeling skills and be able to prescribe the proper modeling approach based on a variety of organizational and contextual factors.  Business process modeling, management and metrics will be covered.  Object-oriented and user-centered approaches will be introduced. PREREQUISITE(S):  IS 421 or SE 430\", \"offered_online\": \"Y\"}",
+        "course_number": "IS435"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 72,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS440\", \"course_name\": \"Collaborative Technologies for Leading Projects\", \"quarters_offered\": \"Fall\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS440"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 73,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS444\", \"course_name\": \"IT Auditing\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"Management and boards continue to recognize the importance of effectively managing information technology (IT) assets - to meet business objectives and to thoughtfully manage IT related business risks.  This course examines the key principles related to auditing information technology processes and related controls and is designed to meet the ever increasing needs of IT audit and IT governance professionals.  In addition, this course aids in the preparation for the Certified Information Systems Auditor (CISA) exam.  PREREQUISITE(S): None\", \"offered_online\": \"Y\"}",
+        "course_number": "IS444"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 74,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS452\", \"course_name\": \"Big Data and the Internet of Things (Iot)\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"This course surveys system design concepts, techniques, and algorithms in Machine to Machine (M2M), Internet of Things (IoT), and Internet of Everything (IoE). Topics covered include system architecture for big data, sensors and embedded technologies, IoT architecture, consumer vs. industrial IoT, wearable and mobile systems, tracking systems, IoT and big data analytics, market dynamics and entrepreneurial opportunities. Special emphasis is placed on identifying best practices in using big data and IoT through case studies and hands-on exercises.  PREREQUISITE(S): None\", \"offered_online\": \"Y\"}",
+        "course_number": "IS452"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 75,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS455\", \"course_name\": \"Electronic Business\", \"quarters_offered\": \"Spring\", \"prereqs\": \"BusinessInformationConcentration\\n\", \"course_description\": \"An introduction to electronic business. The topics include business models, technologies, business and social impact of e-business.  It explores the tools, skills, business and social implications of emerging electronic business.  In addition to acquiring basic skills for identifying electronic business opportunities and creating a presence in the online marketplace, the student reexamines fundamental processes of business as they are performed in cyberspace in contrast to the marketplace.  This helps them understand changes as the cyberspace grows increasingly important in the global economy. PREREQUISITE(S): None.  For Kellstadt students or students pursuing the MS in Business Information Technology only.\", \"offered_online\": \"Y\"}",
+        "course_number": "IS455"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 76,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS482\", \"course_name\": \"Legal Responsibilities in Information Technology\", \"quarters_offered\": \"Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS482"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 77,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS483\", \"course_name\": \"Information Services and Operations\", \"quarters_offered\": \"Winter\", \"prereqs\": \"5MSLevelISCourses\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS483"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 78,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS485\", \"course_name\": \"Requirements Elicitation, Analysis, and Specification\", \"quarters_offered\": \"Winter\", \"prereqs\": \"IS422orIS430orPM430.CannottakeSE482andIS485.\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS485"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 79,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS500\", \"course_name\": \"Information Technology Leadership\", \"quarters_offered\": \"Spring\", \"prereqs\": \"IS430orPM430orSE477\\n\", \"course_description\": \"Managing people ethically and effectively by applying a broad range of creative approaches to individual and team leadership within an Information Technology context.  Leadership methods studied include trait-based, skills-based, situational, contingency theory, path-goal theory, leader-member exchange theory, transformational, psychodynamic, and authentic leadership, as well as team leadership and the international, cultural, and ethical dimensions of leadership.  Students assess their leadership styles and design individualized development plans to strengthen existing skills and expand IT leadership capabilities by incorporating additional leadership dimensions.  PREREQUISITE(S): IS 430 OR PM 430 OR SE 477\", \"offered_online\": \"Y\"}",
+        "course_number": "IS500"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 80,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS505\", \"course_name\": \"Business Continuity/Disaster Recovery Theories and Strategies\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"This course focuses on the knowledge necessary for an organization to prepare for a variety of major disruptions (floods, earthquakes, terrorist attacks, etc.).  The goal is survival of the organization and its daily workflow despite major disruption.  Students learn to analyze and prioritize risks and determine criticality ratings that are used to determine survival strategies.  Students also learn how to organize employees to respond to a major disruption and how to document recovery plans.  Course content includes coverage of current industry trends, as well as planning for the survival of Information Technology functions within an organization.\", \"offered_online\": \"Y\"}",
+        "course_number": "IS505"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 81,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS506\", \"course_name\": \"Business Continuity/Disaster Recovery Management and Tactics\", \"quarters_offered\": \"Summer\", \"prereqs\": \"IS505\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS506"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 82,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS511\", \"course_name\": \"Social Issues of Computing\", \"quarters_offered\": \"Fall, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS511"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 83,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS535\", \"course_name\": \"Information Technology, Investment Financial Analysis\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"SE477orIS565orACT500orIS430orPM430orECT455\\n\", \"course_description\": \"This course focuses on the application of financial analysis and decision-making approaches to aid information technology investment decisions at the operational, project, tactical and strategic levels.  Students will learn how to apply a variety of financial methods -- breakeven analysis, present value analysis, profitability index, and return on investment to various IT investment decisions. The course will also address cost benefit analysis, outsourcing, balanced scorecard, and multi-factor scoring, benchmarking, and IT investment portfolio methods.  These techniques will prepare students to manage capital budgets, acquisition of system and application software, hardware, personnel, and professional services at project and system levels as well as enterprise investment portfolio. PREREQUISITE(S): SE 477 or IS 565 or ACCT 500 or IS 430 or PM 430 or ECT 455\", \"offered_online\": \"Y\"}",
+        "course_number": "IS535"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 84,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS536\", \"course_name\": \"Enterprise Cloud Computing\", \"quarters_offered\": \"Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS536"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 85,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS540\", \"course_name\": \"Global Information Technology\", \"quarters_offered\": \"Winter\", \"prereqs\": \"5ormoreMSLevelISCourses\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS540"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 86,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS549\", \"course_name\": \"Data Warehousing\", \"quarters_offered\": \"Fall, Winter\", \"prereqs\": \"CSC451orCSC453orCSC455\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS549"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 87,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS550\", \"course_name\": \"Enterprise Data Management\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC451orCSC453orCSC455\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS550"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 88,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS556\", \"course_name\": \"Enterprise Project Management\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"IS430orPM430\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS556"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 89,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS560\", \"course_name\": \"Enterprise Systems\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"AdvancedStanding\\n\", \"course_description\": \"An introduction to enterprise systems for data and process integration, including ERP systems.  Topics include the requirements of enterprise systems, application architecture, tools, and functionality of leading enterprise systems, life cycle and methodologies for systems integration, selection, and implementation strategies.  Also addressed are emerging trends for enterprise systems and relationship among component systems.  PREREQUISITE(S): Advanced Standing\", \"offered_online\": \"Y\"}",
+        "course_number": "IS560"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 90,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS565\", \"course_name\": \"IT Outsourcing\", \"quarters_offered\": \"Winter\", \"prereqs\": \"5ormoreMSLevelISCourses\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS565"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 91,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS570\", \"course_name\": \"Enterprise System Implementation\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"IS430orPM430\\n\", \"course_description\": \"Formerly IS 450.  This course is targeted towards information systems professionals who are involved in the planning and implementation of large scale, cross-functional enterprise systems.  Students will examine the characteristics of technology efforts that change and transform the way people perform their tasks and how the new technology structures the flows of information and decision making using workflow modeling methods.   Through case studies and exercises students gain insights into the elements of successful implementations leading to the preparation of a change management plan.  Emphasis is placed on developing mechanisms for communicating and training all affected agents.  PREREQUISITE(S):  IS 430 or PM 430 or completion of five or more other SoC MS level courses should contact the course instructor or an advisor.\", \"offered_online\": \"Y\"}",
+        "course_number": "IS570"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 92,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS574\", \"course_name\": \"Business Intelligence\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"(SE430orIS435orPM430orMIS674)andCS451\\n\", \"course_description\": \"Introduction to the concepts of business intelligence (BI) as components and functionality of information systems. How business problems can be solved effectively by using operational data to create data warehouses, and then applying data mining tools and analytics to gain new insights into organizational operations. Detailed discussion of the analysis, design and implementation of systems for BI, including: data management systems, decision support systems, group support systems, knowledge engineering, expert systems, and Web 2.0 tools. Case studies of application software, web tools, success and limitation as well as technical and social issues. (PREREQUISITE(S): (SE 430 or IS 435 or PM 430 or  MIS 674) and CS C451\", \"offered_online\": \"Y\"}",
+        "course_number": "IS574"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 93,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS577\", \"course_name\": \"Information Systems Policies and Strategies\", \"quarters_offered\": \"Fall, Winter, Summer\", \"prereqs\": \"10ormoreMSLevelISCourses\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IS577"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 94,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS578\", \"course_name\": \"Information Technology Consulting\", \"quarters_offered\": \"Spring\", \"prereqs\": \"FoundationCoursesCompletion\\n\", \"course_description\": \"This course is for the IT professional.  The emphasis is on examining the models, techniques, and skill development for providing effective IT consulting services.  The course examines the structure of IT consulting markets; leading IT consulting practices; models and approaches for providing internal IT consulting services; sourcing strategies, evaluation of RFPs and response process contract formulation, client relations and project management; knowledge management and collaboration and IT strategies. PREREQUISITE(S):  Completion of foundation or core phase.\", \"offered_online\": \"Y\"}",
+        "course_number": "IS578"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 95,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS580\", \"course_name\": \"Technology Entrepreneurship\", \"quarters_offered\": \"Winter, Spring\", \"prereqs\": \"FoundationCoursesCompletion\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "IS580"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 96,
+    "fields": {
+        "course_json": "{\"course_number\": \"IS599\", \"course_name\": \"Independent Study\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"Independent study supervised by an instructor. Independent study form required. Can be repeated for credit. Variable credit. Prerequisite(s): None\", \"offered_online\": \"N\"}",
+        "course_number": "IS599"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 97,
+    "fields": {
+        "course_json": "{\"course_number\": \"IT590\", \"course_name\": \"Topics in Information Technology\", \"quarters_offered\": \"Spring\", \"prereqs\": \"InstructorConsent\\n\", \"course_description\": \"Advanced study focusing on a specific area of information technology each quarter.  May be repeated for credit.  PREREQUISITE(S): Instructor consent required\", \"offered_online\": \"Y\"}",
+        "course_number": "IT590"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 98,
+    "fields": {
+        "course_json": "{\"course_number\": \"IT599\", \"course_name\": \"Topics in Global Information Technology\", \"quarters_offered\": \"Fall\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "IT599"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 99,
+    "fields": {
+        "course_json": "{\"course_number\": \"PM430\", \"course_name\": \"Fundamentals of IT Project Management\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "PM430"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 100,
+    "fields": {
+        "course_json": "{\"course_number\": \"PM440\", \"course_name\": \"Collaborative Technologies for Leading Projects\", \"quarters_offered\": \"Fall\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "PM440"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 101,
+    "fields": {
+        "course_json": "{\"course_number\": \"PM535\", \"course_name\": \"Information Technology Investment Financial Analysis\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"SE477orIS565orACCT500orIS430orPM430orECT455\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "PM535"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 102,
+    "fields": {
+        "course_json": "{\"course_number\": \"PM556\", \"course_name\": \"Enterprise Project Management\", \"quarters_offered\": \"Spring, Winter, Spring, Summer\", \"prereqs\": \"IS430orPM430\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "PM556"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 103,
+    "fields": {
+        "course_json": "{\"course_number\": \"PM570\", \"course_name\": \"Enterprise System Implementation\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"IS430orPM430or5ormoreMSLevelISCourses\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "PM570"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 104,
+    "fields": {
+        "course_json": "{\"course_number\": \"PM577\", \"course_name\": \"IT Portfolio Management and Strategies\", \"quarters_offered\": \"Spring\", \"prereqs\": \"IS556orPM556\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "PM577"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 105,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE430\", \"course_name\": \"Object Oriented Modeling\", \"quarters_offered\": \"Fall, Winter, Summer\", \"prereqs\": \"CSC430\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "SE430"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 106,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE433\", \"course_name\": \"Software Testing Quality Assurance\", \"quarters_offered\": \"Winter, Spring\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"This course is designed for the software engineering professional to gain a greater understanding of the key ingredients in creating and/or managing a successful testing program to meet project needs.  Topics covered include test lifecycle planning, test design & coverage analysis, complexity, levels of testing such as unit, integration, system, performance and stress testing.  Best practice strategies in software testing such as verification & validation, early lifecycle testing, risk based testing and automation will also be examined including exposure to test automation methods and tools. PREREQUISITE(S): CSC 403\", \"offered_online\": \"Y\"}",
+        "course_number": "SE433"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 107,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE441\", \"course_name\": \"Continuous Delivery and Devops\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "SE441"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 108,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE450\", \"course_name\": \"Object-Oriented Software Development\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"Principle, techniques and tools of object-oriented modeling, design, implementation, and testing of large-scale software systems.  Topics include design patterns, application frameworks, architectural design, and the applications in the software development process to improve the extensibility, maintainability, and reliability of software systems.  PREREQUISITE(S): CSC 403\", \"offered_online\": \"Y\"}",
+        "course_number": "SE450"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 109,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE452\", \"course_name\": \"Object-Oriented Enterprise Computing\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"This course focuses on applying object-oriented techniques in the design, development, and integration of server-side enterprise  applications using technologies such as servlets, Java Server Pages,  and JDBC. Topics include web applications, multi-tier architecture,  model-view-controller architecture, database connectivity, and  security. PREREQUISITE(S): CSC 403\", \"offered_online\": \"Y\"}",
+        "course_number": "SE452"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 110,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE456\", \"course_name\": \"Architecture of Real-Time Systems\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "SE456"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 111,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE457\", \"course_name\": \"Service-Oriented Architecture\", \"quarters_offered\": \"Spring\", \"prereqs\": \"SE450orCSC435\\n\", \"course_description\": \"An in-depth study of service oriented architecture (SOA) from the business, architectural, and technology perspectives. The business perspective will explain the imperatives behind SOA and discuss the significance of SOA in industry. The architectural perspective will discuss the different architectural models of software development and contrast these with SOA. The technology perspective will provide students with the opportunity to gain the required hands-on experience to analyze, design, implement and deploy SOA solutions that will meet both functional and non-functional requirements. Major topics include software architectures in practice, SOA development lifecycle, Enterprise Service Bus, SOA analysis and design methods, Web Services, and governance. Prerequisite: SE 450 or CSC 435\", \"offered_online\": \"Y\"}",
+        "course_number": "SE457"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 112,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE459\", \"course_name\": \"Agile Software Development\", \"quarters_offered\": \"Fall\", \"prereqs\": \"SE450orCSC435\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "SE459"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 113,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE475\", \"course_name\": \"Managing Globally Distributed Software Development\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "SE475"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 114,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE477\", \"course_name\": \"Software and Systems Project Management\", \"quarters_offered\": \"Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"Project Management is presented from a practitioner's view.  The four basic building blocks of software project management: people, process, tools, and measurements are covered.  Special emphasis is placed on professional standards such as the Project Management Book of Knowledge and IEEE Software Engineering Standards.   Specific topics include Managing People, Selecting Project Tools, Leadership & Motivation, Software Development Processes, Estimation, Risk Analysis, Scheduling and Tracking, Leveraging Measurements, and Project Completion.  Consideration is given to rapid development and project cultural issues. PREREQUISITE(S): Knowledge of the Software development life cycle model, for example through courses such as SE430, ECT455, IS425, MIS555 or through appropriate work experience.\", \"offered_online\": \"Y\"}",
+        "course_number": "SE477"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 115,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE480\", \"course_name\": \"Software Architecture I\", \"quarters_offered\": \"Fall\", \"prereqs\": \"SE450\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "SE480"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 116,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE482\", \"course_name\": \"Requirements Engineering\", \"quarters_offered\": \"\", \"prereqs\": \"\\n\", \"course_description\": \"Requirements Engineering (RE) plays a critical role in the software development process.  This course will introduce related vocabulary, concepts, and techniques, and will examine the role of RE in software and systems engineering.  The course will cover topics related to eliciting, validating, negotiating, analyzing, specifying, and managing requirements.  Popular RE tools will also be introduced.   Prerequisite: SE430 or SE450.\", \"offered_online\": \"N\"}",
+        "course_number": "SE482"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 117,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE491\", \"course_name\": \"Software Engineering Studio\", \"quarters_offered\": \"Fall, Winter\", \"prereqs\": \"SE450orSE456\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "SE491"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 118,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE526\", \"course_name\": \"Software Security Assessment\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC435\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "SE526"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 119,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE554\", \"course_name\": \"Enterprise Component Architecture\", \"quarters_offered\": \"Spring\", \"prereqs\": \"SE450orSE52\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "SE554"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 120,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE591\", \"course_name\": \"Software Engineering Studio II\", \"quarters_offered\": \"Winter, Spring\", \"prereqs\": \"SE491\\n\", \"course_description\": \"This is the continuation of SE 491. SE 491 and 591 must be taken as a sequence in two consecutive quarters.  PREREQUISITE(S): SE 491\", \"offered_online\": \"Y\"}",
+        "course_number": "SE591"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 121,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE695\", \"course_name\": \"Master's Research\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CompletedFoundationCourses\\n\", \"course_description\": \"Students interested in a more in-depth study of a particular area will register for this course and work with a faculty member (not necessarily their academic advisor) on a research project. The work involved may include system development, empirical studies, or theoretical work. 4 credit hours of CSC 695 replaces one 500level elective course in student's degree program. This course can be taken for 1-4 credit hours for up 8 credit-hours.  PREREQUISITE(S): Consent of research advisor. Independent study form required. Students must successfully complete the foundation courses prior to their first enrollment in CSC 695. (variable credit)\", \"offered_online\": \"N\"}",
+        "course_number": "SE695"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 122,
+    "fields": {
+        "course_json": "{\"course_number\": \"SE699\", \"course_name\": \"Software Engineering Research Continuation\", \"quarters_offered\": \"Winter, Summer\", \"prereqs\": \"SE698\\n\", \"course_description\": \"Students register for continuation credit after registering for SE 698 in each subsequent quarter until they complete their thesis. Students who fail to do so will have to reregister for SE 698 to meet the requirement for completing that course.  PREREQUISITE(S): SE 698. (0 credit hours)\", \"offered_online\": \"N\"}",
+        "course_number": "SE699"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 123,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC431\", \"course_name\": \"Emerging Wireless and Mobility Networks\", \"quarters_offered\": \"Winter, Summer\", \"prereqs\": \"TDC405\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC431"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 124,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC460\", \"course_name\": \"Foundations of Network Technologies\", \"quarters_offered\": \"Fall, Spring, Summer\", \"prereqs\": \"TDC405andTDC413\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC460"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 125,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC463\", \"course_name\": \"Computer Networks and Data Systems\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"TDC405andTDC413\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC463"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 126,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC464\", \"course_name\": \"Converged Multimedia Networks\", \"quarters_offered\": \"Fall, Winter\", \"prereqs\": \"TDC413\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC464"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 127,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC477\", \"course_name\": \"Network Security\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"TDC463orCSC435\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC477"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 128,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC478\", \"course_name\": \"Information Storage and Management\", \"quarters_offered\": \"Fall\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC478"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 129,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC484\", \"course_name\": \"Scripting for Network Management\", \"quarters_offered\": \"Winter\", \"prereqs\": \"TDC413\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC484"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 130,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC511\", \"course_name\": \"Telecommunications Practicum\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"TDC411andTDC460andTDC463\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC511"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 131,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC512\", \"course_name\": \"Cellular and Wireless Telecommunications\", \"quarters_offered\": \"Fall\", \"prereqs\": \"TDC464\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC512"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 132,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC560\", \"course_name\": \"Advanced Network Technologies and Design\", \"quarters_offered\": \"Winter\", \"prereqs\": \"TDC460andTDC463\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC560"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 133,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC562\", \"course_name\": \"Computer-Communication Network Design and Analysis\", \"quarters_offered\": \"Winter\", \"prereqs\": \"TDC463\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC562"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 134,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC563\", \"course_name\": \"Protocols and Techniques for Data Networks\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"TDC463\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC563"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 135,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC568\", \"course_name\": \"Network Management\", \"quarters_offered\": \"Spring\", \"prereqs\": \"TDC463\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC568"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 136,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC577\", \"course_name\": \"Network Security II\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"TDC477\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC577"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 137,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC593\", \"course_name\": \"Topics in Network Engineering and Security\", \"quarters_offered\": \"Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "TDC593"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 138,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC594\", \"course_name\": \"Network Capstone\", \"quarters_offered\": \"Spring\", \"prereqs\": \"TDC477andTDC511\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "TDC594"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 139,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC599\", \"course_name\": \"Independent Study\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "TDC599"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 140,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC696\", \"course_name\": \"Master's Project\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"AdvisorConsent\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "TDC696"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 141,
+    "fields": {
+        "course_json": "{\"course_number\": \"TDC698\", \"course_name\": \"Master's Thesis\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"AdvisorConsent\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "TDC698"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 142,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC421\", \"course_name\": \"Applied Algorithms and Structures\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"CSC400andCSC403\\n\", \"course_description\": \"This course covers techniques for designing and analyzing algorithms and structures in the context of computer application development. Examples will come from Internet, WWW, database, and computer system applications. Fundamental topics such as running-t\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC421"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 143,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC431\", \"course_name\": \"Scientific Computing\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC401andtwoquartersofCalculus\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC431"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 144,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC435\", \"course_name\": \"Distributed Systems I\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"CSC403andCSC407\\n\", \"course_description\": \"An introduction to distributed systems. Topics may include: architecture of distributed systems; networking; datagram-oriented and stream-oriented protocols; network programming (for example, the sockets API); remote procedure call and remote method invoc\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC435"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 145,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC436\", \"course_name\": \"Web Applications\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC435andCSC447\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC436"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 146,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC438\", \"course_name\": \"Framework for Web Application Development\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC407\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC438"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 147,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC439\", \"course_name\": \"Computer Security\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC407\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC439"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 148,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC440\", \"course_name\": \"Cryptology\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC440"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 149,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC443\", \"course_name\": \"Introduction to Operating Systems\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC403andCSC407\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC443"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 150,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC447\", \"course_name\": \"Concepts of Programming Languages\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"CSC403andCSC406\\n\", \"course_description\": \"Programming paradigms and language concepts: functional programming; comparison of object-oriented languages; type systems for functional and object-oriented languages; runtime systems for functional and object-oriented languages.  A variety of programmin\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC447"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 151,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC448\", \"course_name\": \"Compiler Design\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC447\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC448"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 152,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC451\", \"course_name\": \"Database Design for Information Systems\", \"quarters_offered\": \"\", \"prereqs\": \"None\\n\", \"course_description\": \"Requirement analysis, conceptual design, logical design and implementation of relational databases. Emphasis will be on E-R modeling and E-R mapping, along with basic normalization and SQL for database implementation.   PREREQUISITE(S): None\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC451"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 153,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC452\", \"course_name\": \"Database Programming\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"(CSC453orCSC451orCSC455)and(CSC401orIT411)\\n\", \"course_description\": \"Programming in a large-scale relational database environment using procedural languages. Topics covered in the course include: procedural extension of query languages, runtime error handling, subprograms (procedures and functions), packages, database trig\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC452"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 154,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC453\", \"course_name\": \"Database Technologies\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"A core graduate course in database design and implementation.  Topics include database implementation and queries in SQL, logical design or relational databases, storage and indexes, database programming, and emerging database models.  PREREQUISITE(S): CS\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC453"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 155,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC454\", \"course_name\": \"Database Administration and Management\", \"quarters_offered\": \"Winter, Summer\", \"prereqs\": \"CSC451orCSC453orCSC455\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC454"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 156,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC458\", \"course_name\": \"Symbolic Programming\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC458"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 157,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC461\", \"course_name\": \"Optimized C++\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"CSC400andCSC403andCSC406\\n\", \"course_description\": \"Analysis and implementation techniques to improve the performance and resource usage of C++ programs. This class will provide low level understanding of C++'s internal behavior that can be exploited to create faster performing software. Analysis of existi\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC461"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 158,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC462\", \"course_name\": \"Optimized C++ Multithreading\", \"quarters_offered\": \"Fall, Spring\", \"prereqs\": \"GAM491orCSC461\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC462"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 159,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC471\", \"course_name\": \"Mobile Application Development for iOS\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC403andCSC407\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC471"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 160,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC472\", \"course_name\": \"Mobile Application Development for Android\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC403andCSC407\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC472"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 161,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC475\", \"course_name\": \"Introduction to Robotics\", \"quarters_offered\": \"Fall, Winter\", \"prereqs\": \"CSC407\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "CSC475"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 162,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC480\", \"course_name\": \"Artificial Intelligence I\", \"quarters_offered\": \"Spring, Winter\", \"prereqs\": \"CSC403\\n\", \"course_description\": \"An in-depth survey of important concepts, problems, and techniques in artificial intelligence, including search, knowledge representation, logical reasoning, and reasoning with uncertainty.  A particular focus and a unifying theme of the course will be th\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC480"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 163,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC481\", \"course_name\": \"Introduction to Image Processing\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC412\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC481"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 164,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC482\", \"course_name\": \"Applied Image Analysis\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC481\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC482"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 165,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC486\", \"course_name\": \"Real-Time Networking\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CSC461and(SE456orSE450)\\n\", \"course_description\": \"Applied real-time networking fundamentals. Topics include low-level TCP/UDP socket programming, serialization of data for network transportation, deterministic data flow and queuing in applications, dynamic configuration and session communications. Studen\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC486"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 166,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC489\", \"course_name\": \"Theory of Computation\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC444orCSC421\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC489"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 167,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC491\", \"course_name\": \"Mobile Application Development for iOS II\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CSC471\\n\", \"course_description\": \"This course will cover advanced topics in mobile application development for iOS. The topics covered will be made explicit by the course instructor when the course is offered.  PREREQUISITE(S): CSC 471\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC491"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 168,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC500\", \"course_name\": \"Research Colloquium\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"The research colloquium consists of weekly talks by a variety of speakers including faculty, students, and guests from the academic and business communities.  The lectures feature new creative and scholarly works that encompass the disciplines and areas o\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC500"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 169,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC521\", \"course_name\": \"Monte Carlo Algorithms \", \"quarters_offered\": \"Spring\", \"prereqs\": \"(CSC402orCSC404)andCSC423\\n\", \"course_description\": \"A course about the use of random numbers for numerical computation with particular emphasis on implementation issues and applications in science and finance. Covered topics include: pseudo random number generators, the inversion method, the accept-reject \", \"offered_online\": \"Y\"}",
+        "course_number": "CSC521"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 170,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC525\", \"course_name\": \"Combinatorial Optimization\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC421\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC525"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 171,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC536\", \"course_name\": \"Distributed Systems II\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CSC435\\n\", \"course_description\": \"An intermediate course on distributed systems. Topics may include: clock synchronization; mutual exclusion; distributed transactions; consistency models; distribution and consistency protocols; failure models; achieving fault tolerance; distributed object\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC536"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 172,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC543\", \"course_name\": \"Spatial Databases and Geographic Information Systems\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CSC453orCSC455\\n\", \"course_description\": \"This course considers how spatial databases work within a GIS, how data is structured, stored, indexed, retrieved, and displayed.  Other topics may include fuzzy spatial databases, temporal spatial databases, and multiple criteria spatial decision making.\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC543"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 173,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC552\", \"course_name\": \"Concurrent Software Development\", \"quarters_offered\": \"Fall\", \"prereqs\": \"SE450andCSC407\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC552"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 174,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC553\", \"course_name\": \"Advanced Database Concepts\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC453\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC553"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 175,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC554\", \"course_name\": \"Advanced Database Management\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CSC453orCSC454\\n\", \"course_description\": \"In this class, we will discuss concepts, technologies, guiding principles, processes and best practices in managing database environment to meet high availability, scalability, and compliance needs.   Organizations with business critical applications must\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC554"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 176,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC555\", \"course_name\": \"Mining Big Data\", \"quarters_offered\": \"Fall, Spring, Winter\", \"prereqs\": \"(CSC401and(CSC453orDSC450)and(DSC441orDSC478))or(MAT491andMAT449)\\n\", \"course_description\": \"Introduction to fundamentals of distributed file systems and map-reduce technology (e.g., Hadoop); tuning map-reduce performance in a distributed network. Algorithms and tools for mining massive data sets and discussion of current challenges. Applications\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC555"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 177,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC559\", \"course_name\": \"Software Engineering for Financial Markets\", \"quarters_offered\": \"Fall\", \"prereqs\": \"CSC404and(CSC431orCSC5321orCSC425)\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC559"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 178,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC575\", \"course_name\": \"Intelligent Information Retrieval \", \"quarters_offered\": \"Winter\", \"prereqs\": \"SC403\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC575"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 179,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC576\", \"course_name\": \"Computational Advertising\", \"quarters_offered\": \"Winter\", \"prereqs\": \"IS467orCSC478orECT584\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC576"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 180,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC577\", \"course_name\": \"Recommender Systems\", \"quarters_offered\": \"Winter, Spring\", \"prereqs\": \"(CSC412andCSC478)or(CSC403anIS467)\\n\", \"course_description\": \"Recommender systems offer personalized access to online information in product catalogs, social media networks, and document collections, among other applications. This class will introduce students to a range of approaches for building recommender system\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC577"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 181,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC578\", \"course_name\": \"Neural Networks and Deep Learning\", \"quarters_offered\": \"Fall\", \"prereqs\": \"(CS412andDSC478)or(CSC403andDSC441)\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC578"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 182,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC587\", \"course_name\": \"Cognitive Science\", \"quarters_offered\": \"Winter\", \"prereqs\": \"CSC403orHCI460\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC587"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 183,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC588\", \"course_name\": \"Real-Time Multithreaded Architecture\", \"quarters_offered\": \"Spring\", \"prereqs\": \"CSC461and(SE456orSE450)\\n\", \"course_description\": \"Real-time constrained multithreaded architecture.  Topics include multithreaded handle development, inter-thread communication, creating systems for user-defined callbacks, asynchronous loading and streaming of resources, non-blocking threading synchroniz\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC588"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 184,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC594\", \"course_name\": \"Topics in Artificial Intelligence\", \"quarters_offered\": \"Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"Specific topics will be selected by the instructor and may vary with each quarter. Can be repeated for credit. Variable credit.  PREREQUISITE(S): For specific prerequisites, see syllabus or consult course instructor. (variable credit)\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC594"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 185,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC595\", \"course_name\": \"Topics in Computer Science\", \"quarters_offered\": \"Fall\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "CSC595"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 186,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC599\", \"course_name\": \"Independent Study\", \"quarters_offered\": \"Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"Independent study supervised by an instructor. Independent study form required. Can be repeated for credit. Variable Credit.  PREREQUISITE(S): None.  (variable credit)\", \"offered_online\": \"N\"}",
+        "course_number": "CSC599"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 187,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC695\", \"course_name\": \"Master's Research\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"FoundationCoursesCompletionandAdvisorConsent\\n\", \"course_description\": \"Students interested in a more in-depth study of a particular area will register for this course and work with a faculty member (not necessarily their academic advisor) on a research project. The work involved may include system development, empirical stud\", \"offered_online\": \"N\"}",
+        "course_number": "CSC695"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 188,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC696\", \"course_name\": \"Master's Research\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"CSC695\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"No\"}",
+        "course_number": "CSC696"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 189,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC697\", \"course_name\": \"Graduate Internship\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"InstructorConsent\\n\", \"course_description\": \"In cooperation with local employers, the graduate program offers students the opportunity to integrate their academic experience with on-the-job training in computer related work areas. This course is variable credit and may be taken for one to four credi\", \"offered_online\": \"N\"}",
+        "course_number": "CSC697"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 190,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC698\", \"course_name\": \"Master's Thesis\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"CommitteeConsent\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"\"}",
+        "course_number": "CSC698"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 191,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC699\", \"course_name\": \"Research\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"InstructorConsent\\n\", \"course_description\": \"PREREQUISITE(S): Research course supervised by an instructor. Independent Study Form required.  Variable credit.  Can be repeated for credit. (variable credit)\", \"offered_online\": \"N\"}",
+        "course_number": "CSC699"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 192,
+    "fields": {
+        "course_json": "{\"course_number\": \"IT411\", \"course_name\": \"Scripting for Interactive Systems\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"None\\n\", \"course_description\": \"Introductory scripting for developing interactive web pages. Overview of HTML and CSS. Elementary programming concepts using JavaScript for learning control structures, functions, arrays, and object use. User interface development concepts include event  handling and use of JavaScript libraries such as jQuery. Review of web clients, servers and architecture. PREREQUISITE(S): None\", \"offered_online\": \"Y\"}",
+        "course_number": "IT411"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 193,
+    "fields": {
+        "course_json": "{\"course_number\": \"IT403\", \"course_name\": \"Statistics and Data Analysis\", \"quarters_offered\": \"Fall, Winter, Spring, Winter\", \"prereqs\": \"None\\n\", \"course_description\": \"Introduction to univariate data analysis methods. Descriptive statistics and data visualization methods. Overview of sampling techniques for data collection, and introduction to statistical inference methods for decision making including simple linear regression, estimation procedures using confidence intervals and hypothesis testing. PREREQUISITE(S): None\", \"offered_online\": \"Y\"}",
+        "course_number": "IT403"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 194,
+    "fields": {
+        "course_json": "{\"course_number\": \"CSC401\", \"course_name\": \"Introduction to Programming\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"An introduction to programming with a focus on problem solving, structured programming, and algorithm design with a gentle introduction to efficiency. Concepts covered include data types, expressions, variables, assignments, conditional and iterative stru\", \"offered_online\": \"Y\"}",
+        "course_number": "CSC401"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 195,
+    "fields": {
+        "course_json": "{\"course_number\": \"IPD451\", \"course_name\": \"Big Data and NoSQL Program\", \"quarters_offered\": \"Fall, Winter, Spring\", \"prereqs\": \"InstructorConsent\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "IPD451"
+    }
+},
+{
+    "model": "coursesDB.courses",
+    "pk": 196,
+    "fields": {
+        "course_json": "{\"course_number\": \"MGT500\", \"course_name\": \"Managing for Effective and Ethical Organizational Behavior\", \"quarters_offered\": \"Fall, Winter, Spring, Summer\", \"prereqs\": \"None\\n\", \"course_description\": \"CANNOT FIND DESCRIPTION\", \"offered_online\": \"Yes\"}",
+        "course_number": "MGT500"
+    }
+}
+]
