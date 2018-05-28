@@ -48,6 +48,9 @@ INSTALLED_APPS = [
     'user_profile'
 ]
 
+# Changing default User model to our custom one
+AUTH_USER_MODEL = 'accounts.myCustomUser'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
