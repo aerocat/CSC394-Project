@@ -4,7 +4,6 @@ from django.views import generic
 # Create your views here.
 
 from accounts.models import Faculty, Student
-from course_search.models import Course
 
 def index(request):
 	return render(request, 'LandingPage/index.html')
@@ -29,12 +28,40 @@ def FacultySingleView(request, faculty_id_in):
 
 	return HttpResponse("View for faculty with id %s." % faculty.faculty_id)
 
-class CourseListView(generic.ListView):
-	model = Course
-	context_object_name = 'course_list'
-	template_name = 'LandingPage/course_list.html'
+def FacultyListView(request, ):
+    faculty_list = []
+    query = request.GET.get('q')
+    if query:
+        try:
+            faculty_objects = Faculty.objects.filter(faculty_name_first__contains = query)
+            for faculty_object in faculty_objects:
+                faculty_list.append(faculty_object)
+            faculty_objects = Faculty.objects.filter(faculty_name_last__contains = query)
+            for faculty_object in faculty_objects:
+                faculty_list.append(faculty_object)
+        except:
+            faculty_list = []
+    else:
+        faculty_objects = Faculty.objects.all()
+        for faculty_object in faculty_objects:
+            faculty_list.append(faculty_object)
+    return render(request, 'LandingPage/faculty_list.html', {'faculty_list': faculty_list})
 
-def CourseSingleView(request, class_code_in):
-	course = Course.objects.get(class_code=class_code_in)
-
-	return HttpResponse("View for course with class code %s." % course.class_code)
+def StudentListView(request, ):
+    student_list = []
+    query = request.GET.get('q')
+    if query:
+        try:
+            student_objects = Student.objects.filter(student_name_first__contains = query)
+            for student_object in student_objects:
+                student_list.append(student_object)
+            student_objects = Student.objects.filter(student_name_last__contains = query)
+            for student_object in student_objects:
+                student_list.append(student_object)
+        except:
+            student_list = []
+    else:
+        student_objects = Student.objects.all()
+        for student_object in student_objects:
+            student_list.append(student_object)
+    return render(request, 'LandingPage/student_list.html', {'student_list': student_list})

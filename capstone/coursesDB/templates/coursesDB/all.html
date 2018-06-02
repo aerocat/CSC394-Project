@@ -2,18 +2,24 @@
 
 {% block content %}
 
-{% for course_dictionary in lst_of_courses %}
-<h2> Available courses </h2>
+<h2> Available Courses </h2>
 
-<h3>{{course_dictionary.course_number}} </h3>
+<form method = "GET" action = "{% url 'courses:all_courses'%}">
+    <input name="q" value = "{{request.GET.q}}" placeholder = "search..">
+    <button class="btn btn-success" type="submit">
+	    Search
+	</button>
+</form>
+
+{% for course_dictionary in lst_of_courses %}
+
+<hr>
+<h3><a href="{% url 'courses:single_course' course_dictionary.course_number %}">{{ course_dictionary.course_number }}: {{course_dictionary.course_name}}</a></h3>
 
 <p> Course Description: {{course_dictionary.course_description}}  </p>
-<p> Course Offered :{{course_dictionary.quarters_offered}}  </p>
+<p> Course Offered: {{course_dictionary.quarters_offered}}  </p>
 
 <br>
-<hr>
 
-Full object returned:
-{{course_dictionary}}
 {% endfor %}
 {% endblock %}
