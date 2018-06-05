@@ -28,7 +28,7 @@ class Faculty(models.Model):
 
 class Student(models.Model):
 	user = models.OneToOneField(User, on_delete=models.CASCADE, null=True)
-	student_id = models.IntegerField(default=0000)
+	student_id = models.IntegerField(primary_key=True)
 	student_name_first = models.CharField(max_length=50)
 	student_name_last = models.CharField(max_length=50)
 	student_email = models.CharField(max_length=50)
