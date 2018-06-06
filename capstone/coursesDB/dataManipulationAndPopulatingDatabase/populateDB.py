@@ -1,5 +1,7 @@
 import django
 import os
+import sys
+sys.path.insert(0, "/Users/Marco/Documents/Senior_Year/Capstone/capstone")
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'capstone.settings')
 django.setup()

@@ -1,0 +1,13 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+    <div class=" container jumbotron">
+        <h2> First class is: {{ class1.course_number }}</h2>
+        <h2> Second class is {{ class2.course_number }}</h2>
+        <hr class="my-4">
+        <p> Classes wanted to be taken next quarter is {{ schedule }}</p>
+        <p> Credits are {{ credit }}</p>
+        <p> Quarter wanted to be taken: {{ quart }}</p>
+        <p> Online or offline? : {{ online }}</p>
+    <div>
+{% endblock %}

@@ -1,56 +1,41 @@
-{% load staticfiles %}
+{% extends 'base_layout.html' %}
 
-<link rel="stylesheet" href="{% static 'opath/style.css' %}" />
+{% block content %}
 
-
-<html>
-    <head>
         <title>
             Optimal path
         </title>
-    </head>
 
     <!--basic html for this page. Links will be added instead of buttons as time goes on-->
     <body>
-
-        <h1>
+        <br>
+        <h1 class="font-weight-bold text-center">
             Optimal Path Generator
         </h1>
+        <br>
 
-        <div align = "center">
-            <a href='/'><button type= "button"> Landing Page</button> </a>
-        </div>
-
-        
         <!--Main content which is basic selects-->
-        <h3>
-            Optimal Path Search
-        </h3>
-        
-        <div align="center">
-            <select>
-                <option value= "CSC 241">CSC 241</option>
-                <option value= "CSC 394">CSC 394</option>
-                <option value= "CSC 301">CSC 301</option>
-            
-            </select>
-        </div>
-        <div align="center">
-            <select>
-                <option value= "CSC 241">CSC 241</option>
-                <option value= "CSC 394">CSC 394</option>
-                <option value= "CSC 301">CSC 301</option>
-            </select>
-        </div>
-            <div align="center">
-                <select>
-                    <option value= "CSC 241">CSC 241</option>
-                    <option value= "CSC 394">CSC 394</option>
-                    <option value= "CSC 301">CSC 301</option>
-                </select>     
+        <div class="container">
+            <div class= "row">
+
+                <div class = "col ">
+                    <p class= "text-justify">  This is the page to find the optimal classes based on the classes currently taken! <br><br>Select classes on the right to create the schedule. Multiple classes may be selected if neccessary<br>
+                      <br>If nothing found please contract your professor for further assistance</p>
+                </div>
+                <div class= "col border border-primary rounded">
+                    <br>
+                    <h4 class = "text-center font-weight-bold"> Class Select</h4>
+                    <br>
+                        <form action = '' method="GET" class = "form-control">
+                            {% csrf_token %}
+                            {{ form.as_p }}
+                            <input type = "submit" value="Submit">
+                        </form>
+                        <br>
+                            <br>
+                </div>
+
             </div>
-        <div align="center">
-            <a href= '/course_search'>Search</a>
         </div>
     </body>
-</html>
+{% endblock %}
