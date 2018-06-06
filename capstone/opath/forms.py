@@ -21,9 +21,9 @@ class classroom(forms.Form):
     # Second = CustomField(
     #     queryset=Courses.objects.order_by('course_number')
     # )
-    Electives = forms.ChoiceField(choices= [(1," Intro Courses"), (2,'Foundation Courses'),(3, "Software Systems "),(4," Data Science"),
-                                                (5,"Database Systems"), (6,'Artificial Intelligence'), (7,"Software Engineering"),
-                                                (8, 'Game and Real Time Systems'), (9, "Human Computer Interactions")])
+    Electives = forms.ChoiceField(choices= [(1, "Software Systems "),(2," Data Science"),
+                                                (3,"Database Systems"), (4,'Artificial Intelligence'), (5,"Software Engineering"),
+                                                (6, 'Game and Real Time Systems'), (7, "Human Computer Interactions")])
     Classes = forms.ChoiceField(choices=[(1,"1 class a quarter"),(2,"2 classes a quarter"),(3,"3 classes a quarter"),(4,"4 classes a quarter")])
     Grad = forms.ChoiceField(choices=[(True, "CS Undergraduate completed"), (False, 'CS Undergraduate not completed')])
     Time = forms.ChoiceField(choices = [('Spring','Spring'),('Fall','Fall'),('Winter','Winter'), ('Summer','Summer')])
