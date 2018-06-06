@@ -193,10 +193,9 @@ def have_prereqs_for_electives(number, introCourses, current_quarter, classes_pe
                 elif val in intro_courses:
                     intro_courses.remove(val)
             have_prereqs_for_electives.quarter = get_next_quarter(have_prereqs_for_electives.quarter)
-            print(have_prereqs_for_electives.courses_lst)
             if len(have_prereqs_for_electives.courses) >= 19:
                 have_prereqs_for_electives.done = True
-    return False
+    return have_prereqs_for_electives.courses_lst
 
 
 def algorithm(csundergradbool, currenter_quarter):
@@ -234,4 +233,4 @@ game_and_real_time_systems_electives = ["CSC461", "CSC462", "CSC486", "CSC588", 
 human_computer_interactions_electives = ["CSC436", "CSC438", "CSC471", "CSC472", "CSC491",
                                          "HCI440", "HCI430", "HCI454"]
 
-have_prereqs_for_electives(1, False, "Winter", 4)
+print(have_prereqs_for_electives(1, False, "Winter", 4))
