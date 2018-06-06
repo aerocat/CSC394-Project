@@ -45,6 +45,14 @@ def get_offered_online(courseNumber):
     return pretty_course_dict["offered_online"]
 
 
+
+
+
+'''
+{"course_number": self.course_number, "course_name": self.course_name,
+                             "quarters_offered": self.quarters_offered, "prereqs": self.prereqs,
+                             "course_description": self.course_description, "offered_online": self.offered_online}
+
 print(get_course_number("CSC400"))
 print(get_course_name("CSC400"))
 print(get_quarters_offered("CSC400"))
@@ -52,9 +60,4 @@ print(get_prereqs("CSC400"))
 print(get_course_description("CSC400"))
 print(get_offered_online("CSC400"))
 
-
-'''
-{"course_number": self.course_number, "course_name": self.course_name,
-                             "quarters_offered": self.quarters_offered, "prereqs": self.prereqs,
-                             "course_description": self.course_description, "offered_online": self.offered_online}
 '''

@@ -9,6 +9,7 @@ from coursesDB.dataManipulationAndPopulatingDatabase.createCoursesObjects import
 
 django.setup()
 
+Courses.objects.all().delete()
 
 
 pretty_courses = get_pretty_courses_list()

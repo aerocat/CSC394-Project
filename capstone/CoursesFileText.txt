@@ -192,6 +192,5 @@
 ||CSC699|Research|||Fall, Winter, Spring||No|Instructor Consent
 ||IT411|Scripting for Interactive Systems|||Fall, Winter, Spring||Yes|None
 ||IT403|Statistics and Data Analysis|||Fall, Winter, Spring, Winter||Yes|None
-||CSC401|Introduction to Programming|||Fall, Winter, Spring, Summer||Yes|None
 ||IPD451|Big Data and NoSQL Program|||Fall, Winter, Spring||Yes|Instructor Consent
 ||MGT500|Managing for Effective and Ethical Organizational Behavior|||Fall, Winter, Spring, Summer||Yes|None
