@@ -1,6 +1,7 @@
 from django.shortcuts import get_object_or_404, render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.views import generic
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 from accounts.models import Faculty, Student
@@ -8,6 +9,7 @@ from accounts.models import Faculty, Student
 def index(request):
 	return render(request, 'LandingPage/index.html')
 
+@login_required(login_url="/accounts/login/")
 def StudentSingleView(request, student_id_in):
 	try:
 		student = Student.objects.get(student_id=student_id_in)
@@ -15,6 +17,7 @@ def StudentSingleView(request, student_id_in):
 		return render(request, 'LandingPage/missing_student.html')
 	return render(request, 'LandingPage/single_student.html', {'student': student})
 
+@login_required(login_url="/accounts/login/")
 def FacultySingleView(request, faculty_id_in):
 	try:
 		faculty = Faculty.objects.get(faculty_id=faculty_id_in)
@@ -22,6 +25,7 @@ def FacultySingleView(request, faculty_id_in):
 		return render(request, 'LandingPage/missing_faculty.html')
 	return render(request, 'LandingPage/single_faculty.html', {'faculty': faculty})
 
+@login_required(login_url="/accounts/login/")
 def FacultyListView(request, ):
     faculty_list = []
     query = request.GET.get('q')
@@ -41,6 +45,7 @@ def FacultyListView(request, ):
             faculty_list.append(faculty_object)
     return render(request, 'LandingPage/faculty_list.html', {'faculty_list': faculty_list})
 
+@login_required(login_url="/accounts/login/")
 def StudentListView(request, ):
     student_list = []
     query = request.GET.get('q')

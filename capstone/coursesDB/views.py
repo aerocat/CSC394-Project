@@ -1,17 +1,19 @@
 from django.shortcuts import get_object_or_404, render
 from django.views import generic
 from django.db.models import Q
-
+from django.contrib.auth.decorators import login_required
 import json
 
 # Create your views here.
 from .models import Courses
 
+@login_required(login_url="/accounts/login/")
 def index(request):
     course = Courses.objects.get(course_number="MGT500")
     course_dictionary = json.loads(course.course_json)
     return render(request, 'coursesDB/single_course.html', {'course': course_dictionary})
 
+@login_required(login_url="/accounts/login/")
 def get_courses(request, ):
     lst_of_courses = []
     query = request.GET.get('q')
@@ -30,6 +32,7 @@ def get_courses(request, ):
             lst_of_courses.append(course_dictionary)
     return render(request, 'coursesDB/all.html', {'lst_of_courses': lst_of_courses})
 
+@login_required(login_url="/accounts/login/")
 def CourseSingleView(request, course_id):
     try:
         course = Courses.objects.get(course_number=course_id)
