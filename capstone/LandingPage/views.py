@@ -36,7 +36,8 @@ def FacultyListView(request, ):
                 faculty_list.append(faculty_object)
             faculty_objects = Faculty.objects.filter(faculty_name_last__contains = query)
             for faculty_object in faculty_objects:
-                faculty_list.append(faculty_object)
+                if faculty_object not in faculty_list:
+                    faculty_list.append(faculty_object)
         except:
             faculty_list = []
     else:
@@ -56,7 +57,8 @@ def StudentListView(request, ):
                 student_list.append(student_object)
             student_objects = Student.objects.filter(student_name_last__contains = query)
             for student_object in student_objects:
-                student_list.append(student_object)
+                if student_object not in student_list:
+                    student_list.append(student_object)
         except:
             student_list = []
     else:
