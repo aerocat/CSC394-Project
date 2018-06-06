@@ -2,9 +2,13 @@
 
 {% block content %}
     <div class=" container jumbotron">
-        <h2> Elective is {{ elective }}</h2>
-        <h2> Clases is {{ Classes }}</h2>
-        <h2> Grad is {{ Grad }}</h2>
-        <h2> Time is {{ Time }}</h2>
+        <h4> Elective is {{ elective }} with {{ Classes }} Classes in a {{ Time }}</h4>
+        <h4> Student is {{ text }}</h4>
+        <hr class="my-2">
+        <p> Recommendation is one of the following classes</p>
+        <ul>
+            <li><a href="">CSC 450</a> </li>
+            <li><a href> SE 450</a></li>
+        </ul>
     <div>
 {% endblock %}
