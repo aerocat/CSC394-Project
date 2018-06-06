@@ -1,0 +1,27 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+
+<h2> Student </h2>
+
+<form method = "GET" action = "{% url 'LandingPage:all_students'%}">
+    <input name="q" value = "{{request.GET.q}}" placeholder = "search..">
+    <button class="btn btn-success" type="submit">
+	    Search
+	</button>
+</form>
+
+{% if student_list %}
+<ul>
+    {% for student in student_list %}
+    <li>
+        <a href="{% url 'LandingPage:single_student' student.student_id %}">{{ student.student_name_last }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>
+    No Student Available
+</p>
+{% endif %}
+{% endblock %}

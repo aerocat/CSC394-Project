@@ -1,0 +1,27 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+
+<h2> Faculty </h2>
+
+<form method = "GET" action = "{% url 'LandingPage:all_faculty'%}">
+    <input name="q" value = "{{request.GET.q}}" placeholder = "search..">
+    <button class="btn btn-success" type="submit">
+	    Search
+	</button>
+</form>
+
+{% if faculty_list %}
+<ul>
+    {% for faculty in faculty_list %}
+    <li>
+        <a href="{% url 'LandingPage:single_faculty' faculty.faculty_id %}">{{ faculty.faculty_name_last }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>
+    No Faculty Available
+</p>
+{% endif %}
+{% endblock %}

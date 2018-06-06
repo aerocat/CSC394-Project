@@ -1,0 +1,12 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+
+<h3>{{course.course_number}}: {{course.course_name}} </h3>
+
+<p> Course Description: {{course.course_description}}  </p>
+<p> Course Offered: {{course.quarters_offered}}  </p>
+<p> Offered Online: {{course.offered_online}}  </p>
+<p> Prerequisites: {{course.prereqs}}  </p>
+
+{% endblock %}
