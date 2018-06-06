@@ -9,14 +9,11 @@ from django.contrib.auth.decorators import login_required
 def index(request):
     form = classroom(request.GET)
     if form.is_valid():
-        class1 = form.cleaned_data['First']
-        class2 = form.cleaned_data['Second']
-        online = form.cleaned_data['Online']
-        credit = form.cleaned_data['Credits']
-        quart = form.cleaned_data['Quarter']
-        schedule = form.cleaned_data['Schedule']
-        return render(request, 'searchA.html', {'schedule': schedule, 'class1': class1, 'class2': class2,
-                                                'online':online, 'credit': credit, 'quart': quart})
+        elective = form.cleaned_data['Electives']
+        Classes = form.cleaned_data['Classes']
+        Grad = form.cleaned_data['Grad']
+        Time = form.cleaned_data['Time']
+        return render(request, 'searchA.html', {'elective': elective, 'Classes': Classes, 'Grad':Grad, 'Time':Time})
     else:
         form = classroom()
     data = Courses.objects.order_by('course_number')
