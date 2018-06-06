@@ -84,8 +84,8 @@ def get_next_quarter(quarter):
         return quarters[quarters.index(quarter) + 1]
 
 
-def have_prereqs_for_electives(elective_preference, introCourses, current_quarter, classes_per_quarter):
-
+def have_prereqs_for_electives(number, introCourses, current_quarter, classes_per_quarter):
+    elective_preference = return_concentration(number)
     have_prereqs_for_electives.courses = []
     have_prereqs_for_electives.done = False
     other_electives = [human_computer_interactions_electives, game_and_real_time_systems_electives,
@@ -204,18 +204,34 @@ def algorithm(csundergradbool, currenter_quarter):
     set_elective_counter()
     return possible_to_graduate()
 
-have_prereqs_for_electives(software_systems_electives, True, "Spring    ", 3)
+def return_concentration(conc_int):
+    if(conc_int == 1):
+        return software_systems_electives
+    elif(conc_int == 2):
+        return data_science_electives
+    elif(conc_int == 3):
+        return database_systems_electives
+    elif(conc_int == 4):
+        return artificial_intelligence_electives
+    elif(conc_int == 5):
+        return software_engineering_electives
+    elif(conc_int == 6):
+        return game_and_real_time_systems_electives
+    elif(conc_int == 7):
+        return software_engineering_electives
 
 
 
+data_science_electives = ["CSC481", "CSC482", "CSC555", "CSC575", "CSC578", "CSC594"]
+database_systems_electives = ["CSC452", "CSC454", "CSC543", "CSC553", "CSC554", "CSC555", "CSC575"]
+artificial_intelligence_electives = ["CSC458", "CSC480", "CSC481", "CSC482", "CSC575", "CSC576", "CSC577", "CSC578",
+                                     "CSC587", "CSC594"]
+software_engineering_electives = ["SE430", "SE433", "SE441", "SE452", "SE456", "SE459", "SE475", "SE477",
+                                  "SE480", "SE482", "SE491", "SE554", "SE591"]
+game_and_real_time_systems_electives = ["CSC461", "CSC462", "CSC486", "CSC588", "GAM425", "GAM450",
+                                        "GAM470", "GAM475", "GAM476", "GAM575", "GAM576", "GAM690",
+                                        "GAM691", "SE456"]
+human_computer_interactions_electives = ["CSC436", "CSC438", "CSC471", "CSC472", "CSC491",
+                                         "HCI440", "HCI430", "HCI454"]
 
-
-
-
-
-
-
-
-
-
-
+have_prereqs_for_electives(1, False, "Winter", 4)
