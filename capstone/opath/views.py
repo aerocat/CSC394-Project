@@ -10,7 +10,8 @@ from coursesDB.dataManipulationAndPopulatingDatabase.efficientCourseAlgorithm im
 def index(request):
     form = classroom(request.GET)
     if form.is_valid():
-        elective = return_concentration(int(form.cleaned_data['Electives']))
+        select = int(form.cleaned_data['Electives'])
+        elective = return_concentration(select)
         Classes = form.cleaned_data['Classes']
         Grad = form.cleaned_data['Grad']
         Time = form.cleaned_data['Time']
@@ -18,6 +19,8 @@ def index(request):
             text = "currently a graduate"
         else:
             text = "currently a undergraduate"
+        # actual data below from databases some errors unfortunately 
+        # answer = have_prereqs_for_electives(select, bool(Grad), Time, int(Classes))
         return render(request, 'searchA.html', {'elective': elective, 'Classes': Classes, 'text':text, 'Time':Time})
     else:
         form = classroom()
